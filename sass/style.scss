@@ -46,6 +46,7 @@ h1, h2, h3, h4{
 
 h1{
   font-size: 4em;
+  text-align: center;
 }
 
 h2{
@@ -54,6 +55,7 @@ h2{
 
 h3{
   font-size: 2em;
+  text-align: center;
 }
 
 
@@ -156,11 +158,10 @@ h3{
   }
 
   @include bp(m){
-    background-color: #888e92;
+    background-color: darken($color_main, 10%);
     text-align: center;
     width: 100%;
     position: absolute;
-    top: 50px;
     margin: 0;
     padding-top: 10px;
     z-index: 1;
@@ -182,8 +183,14 @@ h3{
 body.nav-open{
 
   #nav{
-    top: 50px;
+    top: 0;
   }
+
+   @include bp(m){
+    #nav{
+      top: 50px;
+    }
+   }
 }
 
 .menu-toggle{
@@ -231,6 +238,17 @@ body.nav-open{
       margin: auto;
       padding: 60px 80px 80px;
     }
+
+    p{
+      max-width: 600px;
+      margin: auto;
+      text-align: justify;
+    }
+
+    p + p,
+    h3 + p{
+      margin-top: 40px;
+    }
   }
 }
 
@@ -243,8 +261,12 @@ body.nav-open{
   background-color: $color_accent;
 }
 
+.bg-med{
+  background-color: #dfeffa;
+}
 
-/* PAGE SPECIFIC
+
+/* About
 -------------------------------------------------------------- */
 body.about{
 
@@ -257,9 +279,51 @@ body.about{
   }
 }
 
+.members,
+.investors{
+  @include pie-clearfix;
+  margin-top: 40px;
+}
+
+.member,
+.investor{
+  max-width: 33.3%;
+  padding: 20px;
+  float: left;
+
+  .image{
+    @include border-radius(200px);
+    overflow: hidden;
+    margin-bottom: 10px;
+
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  h2{
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  h3{
+    font-size: 1em;
+    letter-spacing: 2px;
+    font-weight: 400;
+  }
+
+}
+
+.investor{
+  max-width: 25%;
+}
+
+
 /* FOOTER
 -------------------------------------------------------------- */
 #footer{
+
   text-align: center;
   background-color: $color_main;
 
@@ -283,10 +347,20 @@ body.about{
 
   .inner{
     padding: 80px;
+    @include pie-clearfix;
   }
 
   .social-icons{
     font-size: 4em;
+  }
+
+  .section.logo{
+    margin-bottom: 40px;
+
+    img{
+      width: 100px;
+    }
+    
   }
 
   .section + .section{
@@ -321,6 +395,7 @@ body.about{
     .inner{
       display: table-cell;
       vertical-align: middle;
+      position: relative;
     }
 
     @include bp(l){
@@ -368,7 +443,7 @@ body.about{
     }
   }
 
-  .more-1{
+  .more{
     position: absolute;
     bottom: 70px;
     right: 90px;
@@ -410,6 +485,13 @@ body.about{
   }
 }
 
+.click-here{
+  max-width: 170px;
+  position: relative;
+  bottom: 100px;
+  left: 100px;
+}
+
 
 #slide-1{
   @include bg_full('../images/intro/BH-fashion.jpg');
@@ -424,12 +506,113 @@ body.about{
 }
 
 #slide-4{
-  @include bg_full('../images/intro/BH-computer-lifestyle.jpg');
+  @include bg_full('../images/BH-demo.jpg');
+
+  .inner{
+    vertical-align: bottom !important;
+  }
 }
 
 #slide-5{
   background-color: $color_accent;
 }
+
+.arrows{
+  @extend %header_font;
+  color: $color_lt;
+
+  span{
+    font-weight: 400;
+  }
+}
+
+
+/* FORMS
+-------------------------------------------------------------- */
+form{
+  max-width: 600px;
+  margin: auto;
+}
+
+label{
+  @extend %header_font;
+  font-size: 1.5em;
+  display: block;
+}
+
+input[type='text'],
+input[type='url'],
+input[type='email'],
+textarea{
+  width: 100%;
+  border: none;
+  font-size: 1em;
+  padding: 10px;
+  font-family: $font_main;
+  color: $color_main;
+  background-color: #dfeffa;
+
+  &:focus{
+    background-color: $color_lt;
+  }
+}
+
+select{
+  width: 50%;
+
+  font-family: $font_main;
+  color: $color_main;
+}
+
+.form-item{
+  margin-bottom: 20px;
+}
+
+.form-group{
+  @include pie-clearfix;
+
+  .left,
+  .right{
+    width: 50%;
+    float: left;
+  }
+
+  .left{
+    padding-right: 20px;
+  }
+
+  .right{
+    padding-left: 20px;
+  }
+
+}
+
+.actions{
+  text-align: center;
+}
+
+input[type='submit']{
+  @extend %header_font;
+  font-family: $font_main;
+  background: none;
+  border: none;
+  font-size: 3em;
+  color: $color_accent;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: $color_main;
+  padding: 10px 30px;
+
+  &:hover{
+    background-color: $color_lt;
+    color: $color_main;
+  }
+}
+
+
+
+
+
 
 
 

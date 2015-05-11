@@ -11,7 +11,7 @@
 		switch("$page"){ 
 			case 'index.php': 
 				$page = 'front';
-		     	$title = ' | e-commerce re-invented'; 
+		     	$title = ' | E-commerce Reinvented'; 
 		     	break; 
 			case 'about.php': 
 				$page = 'about';

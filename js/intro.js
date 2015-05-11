@@ -14,18 +14,7 @@ $( document ).ready(function() {
 	}); 
 
 	var slide_1_timing = [
-		500,
-		400,
-		500,
-		300,
-		200,
-		300,
-		500,
-		500,
-		500,
-		200,
-		300,
-		500,
+		500, 400, 500, 300, 200, 300, 500, 500, 500, 200, 300, 500,
 	]
 
 	var delay = 0;
@@ -49,7 +38,7 @@ $( document ).ready(function() {
 
 	}
 
-	showWords($('#slide-1 p'), slide_1_timing, $('.more-1'));
+	showWords($('#slide-1 p'), slide_1_timing, $('#slide-1 .more'));
 
 	
 
