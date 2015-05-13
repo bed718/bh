@@ -29,7 +29,7 @@
 		echo '<title>Bringhub'.$title.'</title>'; 
 		?>
 
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,300,800,400' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="/css/style.css">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">

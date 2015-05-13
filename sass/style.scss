@@ -2,6 +2,7 @@
 @import "_reset";
 @import "_fonts";
 @import "_icons";
+@import "_bh_icons";
 @import "_base";
 
 /* BASIC STYLES
@@ -42,11 +43,16 @@ ul.menu li{
 
 h1, h2, h3, h4{
   @extend %header_font;
+
+  span{
+    font-style: italic;
+  }
 }
 
 h1{
   font-size: 4em;
   text-align: center;
+  line-height: 60px;
 }
 
 h2{
@@ -58,11 +64,24 @@ h3{
   text-align: center;
 }
 
+.fancy{
+  font-style: italic;
+}
+
+/* Icons
+-------------------------------------------------------------- */
+.icons.header{
+  text-align: center;
+  font-size: 8em;
+  margin-bottom: 40px;
+}
+
 
 
 /* Header
 -------------------------------------------------------------- */
 #header{
+  @include box-shadow;
   background-color: $color_main;
   position: fixed;
   top: 0;
@@ -93,6 +112,7 @@ h3{
 
   span{
     @include border-radius(200px);
+     // @include box-shadow;
     width: 300px;
     height: 300px;
     background-color: $color_main;
@@ -158,7 +178,7 @@ h3{
   }
 
   @include bp(m){
-    background-color: darken($color_main, 10%);
+    background-color: darken($color_main, 5%);
     text-align: center;
     width: 100%;
     position: absolute;
@@ -223,6 +243,7 @@ body.nav-open{
 /* CONTENT
 -------------------------------------------------------------- */
 #content{
+  padding-top: 80px;
 
   .header-image{
     position: relative;
@@ -235,20 +256,29 @@ body.nav-open{
       
     .inner{
       max-width: $bp_lg;
-      margin: auto;
-      padding: 60px 80px 80px;
+     margin: auto;
+      padding: 80px;
+    }
+
+    h1{
+      // color: $color_accent;
     }
 
     p{
       max-width: 600px;
       margin: auto;
+      margin-top: 40px;
       text-align: justify;
     }
 
     p + p,
-    h3 + p{
-      margin-top: 40px;
+    h3 + p,
+    h1 + p,
+    p + h3,
+    h3{
+      margin-top: 40px; 
     }
+
   }
 }
 
@@ -263,6 +293,53 @@ body.nav-open{
 
 .bg-med{
   background-color: #dfeffa;
+}
+
+.image-divider{
+  position: relative;
+  height: 60vh;
+  border-top: $color_accent solid 20px;
+  border-bottom: $color_accent solid 20px;
+}
+
+
+/* COMIC
+-------------------------------------------------------------- */
+#comic{
+  @include pie-clearfix;
+}
+
+.cell{
+  width: 25%;
+  height: 500px;
+  float: left;
+}
+
+#cell-1{
+  background-color: darken($color_accent, 5%);
+}
+
+#cell-2{
+  background-color: darken($color_accent, 10%);
+}
+
+#cell-3{
+  background-color: darken($color_accent, 15%);
+}
+
+#cell-4{
+  background-color: darken($color_accent, 20%);
+}
+
+
+/* Publisher
+-------------------------------------------------------------- */
+
+
+
+
+#pub-divider-1{
+  @include bg_full('../images/BH-demo.jpg');
 }
 
 
@@ -372,7 +449,7 @@ body.about{
   text-transform: uppercase;
   padding: 20px;
   color: $color_lt;
-  background-color: darken($color_main, 10%);
+  background-color: darken($color_main, 5%);
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -447,42 +524,46 @@ body.about{
     position: absolute;
     bottom: 70px;
     right: 90px;
-    font-weight: 800;
-    color: $color_lt;
-    font-size: 3em;
-    line-height: 50px;
-    text-transform: uppercase;
-    text-align: center;
-
-    .arrow-down{
-      transform: rotate(90deg) ;
-      -webkit-transform: rotate(90deg) ;
-      -moz-transform: rotate(90deg) ;
-      -o-transform: rotate(90deg) ;
-      -ms-transform: rotate(90deg) ;
-      display: block;
-      margin-top: 30px;
-
-      span{
-        font-weight: 400;
-      }
-    }
-
-    @include bp(l){
-      width: 100%;
-      right: 0;
-    }
-
-    @include bp(m){
-      
-    }
-
-    @include bp(s){
-      
-    }
-
-
   }
+}
+
+.more{
+  
+  font-weight: 800;
+  color: $color_lt;
+  font-size: 3em;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+
+  .arrow-down{
+    transform: rotate(90deg) ;
+    -webkit-transform: rotate(90deg) ;
+    -moz-transform: rotate(90deg) ;
+    -o-transform: rotate(90deg) ;
+    -ms-transform: rotate(90deg) ;
+    display: block;
+    margin-top: 30px;
+
+    span{
+      font-weight: 400;
+    }
+  }
+
+  @include bp(l){
+    width: 100%;
+    right: 0;
+  }
+
+  @include bp(m){
+    
+  }
+
+  @include bp(s){
+    
+  }
+
+
 }
 
 .click-here{

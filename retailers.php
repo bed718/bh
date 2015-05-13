@@ -5,7 +5,6 @@
 			<?php include 'includes/_header.php'; ?>
 			
 			<div id="content">
-				<div class="header-image"></div>
 					
 				<div class="section bg-dk">
 					<div class="inner">
