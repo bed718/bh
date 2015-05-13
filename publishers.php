@@ -19,15 +19,20 @@
 				<div class="section bg-dk">
 					<div class="inner">
 						<h1>So, what is Bringhub?</h1>
-						<p>Great question. And we've prepared an adorable little comic to address it.</p>
+						<h3>Great question.</h3>
+						<p class="text-center">And we've prepared an adorable little comic to address it.</p>
 					</div>
 				</div>
 
 				<div class="section">
 					<div class="inner">
+						<div class="icons header">
+							<span class="bh-icon-help"></span>
+
+						</div>
 						<h1>I'm still a little fuzzy.<br /> Can you tell me more about what Bringhub <span>is</span>?</h1>
 						<p>Bringhub is a revolution that is changing the way people around the world shop. It's changing the way publishers&mdash;like you&mdash;monetize content. </p>
-						<p>Your audience can buy multiple products from multiple retailers&mdash;right on your site&mdash;all through a single, secure checkout.</p>
+						<p>Your audience can buy multiple products from multiple retailers&mdash;right on your site&mdash;all through a <span class="highlight">single, secure</span> checkout.</p>
 						<p>Bringhub is changing the way retailers interact with publishers and their target consumers. It's collapsing the consumer buy flow funnel. It's giving both publishers and retailers an entirely new revenue stream without disturbing any existing infrastructures</p>
 						<h3>Bringhub is the future.</h3>
 					</div>
@@ -36,13 +41,15 @@
 				<div class="section bg-med">
 					<div class="inner">
 						<div class="icons header">
-							<span class="bh-icon-help"></span>
+							<span class="bh-icon-cog"></span>
 						</div>
 						<h1>What's Bringhub from a functional standpoint?</h1>
-						<p><span class="fancy">Another great question.</span> Bringhub acts as the single checkout for thousands of retailers right in the web's best content&mdash;yours.</p>
+						<h3>Another great question!</h3>
+						<p>Bringhub acts as the single checkout for thousands of retailers right in the web's best content&mdash;yours.</p>
 						<p>Whether your audience is at home or on the go, Bringhub works with any site, any device, any time.</p>
-						<p>Think: A shopper falls in love with a dress featured on her favorite fashion blog. But she also wants to buy the matching shoes and the bracelet (each from a different store). With Bringhub, she can buy all three instantly&mdash;at the moment of discovery&mdash;on the very website where she first found them. Plus, she only has to enter her payment and shipping details once. This means that from here on out, shopping gets even easier.</p>
-						<p>Three items, three different stores, and one checkout that keeps your audience on your content. Bringhub isn't just the ultimate streamlined checkout&mdash;it's an entirely reinvented eCommerce experience. One that makes sense for all parties involved&mdash;publishers, retailers and consumers. See? A revolution.</p>
+						<p><span class="highlight">Think:</span> A shopper falls in love with a dress featured on her favorite fashion blog. But she also wants to buy the matching shoes and the bracelet (each from a different store). With Bringhub, she can buy all three instantly&mdash;at the moment of discovery&mdash;on the very website where she first found them. Plus, she only has to enter her payment and shipping details once. This means that from here on out, shopping gets even easier.</p>
+						<p>Three items, three different stores, and one checkout that keeps your audience on your content. Bringhub isn't just the ultimate streamlined checkout&mdash;it's an entirely reinvented eCommerce experience. One that makes sense for all parties involved&mdash;publishers, retailers and consumers. </p>
+						<h3>See? A revolution.</h3>
 					</div>
 				</div>
 
@@ -69,7 +76,7 @@
 						<h1>Is customer information safe?</h1>
 						<h3>Yes.</h3>
 						<p>Bringhub is fully PCI compliant and committed to upholding the highest levels of security and protection against fraud. We stay up-to-date with the latest in security technologies to ensure that customer credit card and personal information is confidential and safe.</p>
-						<p>For more information, please refer to our <a href="/privacy-policy">PRIVACY POLICY</a></p>
+						<p class="text-center">For more information, please refer to our <a href="/privacy-policy">PRIVACY POLICY</a></p>
 					</div>
 				</div>
 
@@ -79,7 +86,7 @@
 							<span class="bh-icon-code"></span>
 						</div>
 						<h1>How do I install Bringhub?</h1>
-						<p>Getting the Bringhub cart on your website is super easy.</p>
+						<p class="text-center">Getting the Bringhub cart on your website is super easy.</p>
 						<p>Simply drop a snippet of javascript into your site's header and you're done. The cart is ready to appear wherever you want it.</p>
 						<p>Once the snippet of code is installed, making your content shoppable is a breeze.</p>
 						<p>The Bringhub publisher interface allows your editors quickly to select which content should trigger the cart, and easily link specific products or product collections to pieces of content.</p>
@@ -87,7 +94,7 @@
 					</div>
 				</div>
 
-				<div class="section">
+				<div class="section bg-lt">
 					<div class="inner">
 						<div class="icons header">
 							<span class="bh-icon-credit"></span>
@@ -100,15 +107,19 @@
 					</div>
 				</div>
 				
-				<div class="section">
+				<div class="section bg-dk">
 					<div class="inner">
 						<div class="icons header">
 							<span class="bh-icon-creative-commons-noncommercial-us"></span>
 						</div>
 						<h1>What does it cost?</h1>
-						<p>Working with Bringhub is absolutely free!</p>
+						<h3>Working with Bringhub is absolutely free!</h3>
 						<p>There are no fees or subscriptions, and no exclusivity required. In fact, you can use your current affiliate accounts through the cart. Boost your affiliate earnings with Bringhub's higher conversion rates and keep your audience on your site.</p>
 					</div>
+				</div>
+
+				<div id="pub-divider-2" class="image-divider">
+					<div class="inner"></div>
 				</div>
 				
 				<div class="section">
@@ -116,12 +127,13 @@
 						<div class="icons header">
 							<span class="bh-icon-line-graph"></span>
 						</div>
-						<h1>Do I have access to any data or metrics of any kind?</h1>
-						<p>Of course! Data is king! In the Bringhub publisher dashboard, you'll have access to robust analytics. See what content is converting, how many sales you're making, and which items your audience is buying.</p>
+						<h1>Do I have access to any metrics of any kind?</h1>
+						<h3>Of course! Data is king!</h3>
+						<p>In the Bringhub publisher dashboard, you'll have access to robust analytics. See what content is converting, how many sales you're making, and which items your audience is buying.</p>
 					</div>
 				</div>
 				
-				<div class="section">
+				<div class="section bg-lt">
 					<div class="inner">
 						<div class="icons header">
 							<span class="bh-icon-block"></span>
@@ -129,44 +141,43 @@
 							<span class="bh-icon-block"></span>
 						</div>
 						<h1>Do I have to track any orders or support my customer?</h1>
+						<h3>Nope.</h3>
 						<p>When a shopper makes a purchase through the cart on your site, you don't have to do a thing!</p>
 
 						<p>Bringhub handles all customer service communications and works closely with retailers to ensure seamless order fulfillment. We make sure shoppers know to reach out to us if they need help with a purchase.</p>
 
 						<p>So, you can sit back and focus on the fun stuff (like creating all that wow-worthy content), and watch the commission earnings roll in!
 
-						<p>What kind of retailers or stores are involved?
-						The stores you want! The best brands, top retailers, and premier travel booking and event ticketing providers&mdash;all available in the Bringhub cart.</p>
+					</div>
+				</div>
 
+				<div class="section">
+					<div class="inner">
+						<div class="icons header">
+							<span class="bh-icon-shop"></span>
+						</div>
+						<h1>What kind of retailers or stores are involved?</h1>
+						<h3>The stores you want!</h3>
+						<p>The best brands, top retailers, and premier travel booking and event ticketing providers&mdash;all available in the Bringhub cart.</p>
 						<p>If you want to create content about it, Bringhub makes sure you're also able to sell it.</p>
-
 						<p>Fashion, housewares, consumer products, vacations, concerts, and more! If your audience learns about it from you, they should be able to buy it from you -- on your site -- with the click of a button.</p>
-
 						<p>Don't see the store you want? Let us know! Send us an email (morestores@bringhub.com) and we'll do our best to speedily make that store “Bringhub shoppable.”</p>
 
 
 						<p>To get the Bringhub cart on your site, please SEND US YOUR INFO and we'll get the ball rolling.</p>
-
 					</div>
 				</div>
 				
-				<div class="section">
+				<div class="section bg-med">
 					<div class="inner">
 						<h1>Ready to hear more?</h1>
-						<div class="arrow">
-							>>>>>>>>>>>>
-						</div>
+							
 					</div>
 				</div>
-				
-
 
 				<div id="cta" class="section bg-accent">
 					<div class="inner">
-						<h1>Get in the Cart!</h1>
-						<p>Aye, aye! We can't wait to get you started.</p>
-						<p>To get the Bringhub cart on your site, please SEND US YOUR INFO and we'll get the ball
-rolling.</p>
+						<h1>Start Now!</h1>
 						<?php include 'includes/_contact.php'; ?>	
 					</div>
 				</div>
