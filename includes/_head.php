@@ -32,6 +32,9 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,300,800,400' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="/css/style.css">
 
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta property="og:title" content="" />
 		<meta property="og:type" content="website" />

@@ -438,12 +438,18 @@ body.about{
 /* FOOTER
 -------------------------------------------------------------- */
 #footer{
+  color: $color_lt;
 
   text-align: center;
   background-color: $color_main;
 
   h3{
     color: $color_lt;
+    text-align: left;
+
+    @include bp(m){
+      text-align: center;
+    }
   }
 
   a{
@@ -463,13 +469,37 @@ body.about{
   .inner{
     padding: 80px;
     @include pie-clearfix;
+    max-width: $bp_lg;
+    margin: auto;
+   // display: table;
+    //height: 100%;
+    position: relative;
+
   }
 
   .social-icons{
     font-size: 4em;
   }
 
+  .section{
+    width: 33.3%;
+    float: left;
+    text-align: left;
+    //border-right: white solid;
+    //display: table-cell;
+    //height: 100%;
+
+    @include bp(m){
+      width: 100%;
+      float: none;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  }
+
   .section.logo{
+    width: 10%;
+    display: none;
     margin-bottom: 40px;
 
     img{
@@ -520,19 +550,23 @@ body.about{
     @include bp(l){
       
       .inner{
-        vertical-align: top;
+        //vertical-align: top;
       }
     }
 
     @include bp(m){
       .inner{
-        vertical-align: top;
+        
       }
     }
 
     @include bp(s){
+      display: block;
       
+
       .inner{
+        display: block;
+        padding: 100px 20px 20px;
       }
     }
 
@@ -556,7 +590,7 @@ body.about{
       }
 
       @include bp(s){
-       font-size: 3em;
+       font-size: 2em;
         line-height: 50px; 
       }
     }
@@ -606,7 +640,8 @@ body.about{
   }
 
   @include bp(s){
-    
+    font-size: 2em;
+    line-height: 30px;
   }
 
 
@@ -630,10 +665,15 @@ body.about{
       display: table-cell;
     }
 
-    // p{
-    //   font-size: 8em;
-    //   line-height: 120px;
-    // }
+    @include bp(s){
+      display: block;
+
+      .inner{
+        height: 100vh;
+        display: block;
+        padding: 100px 20px 20px;
+      }
+    }
   
 }
 
@@ -642,6 +682,10 @@ body.about{
 
   .inner{
     padding-bottom: 300px;
+
+    @include bp(s){
+      padding-bottom: 200px;
+    }
   }
 }
 
@@ -650,6 +694,10 @@ body.about{
 
   .inner{
     padding-bottom: 300px;
+
+    @include bp(s){
+      padding-bottom: 200px;
+    }
   }
 }
 

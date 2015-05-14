@@ -20,7 +20,13 @@
 
 		<div class="section">
 			<h3>Address</h3>
-			
+			3221 Hutchison Ave, Suite H<br />
+			Los Angeles, CA 90034<br />
+			USA<br />
+			<br />
+			85 Broad St<br />
+			New York, NY 10004<br />
+			USA
 		</div>
 	</div>
 	<div id="copy">

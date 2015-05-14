@@ -945,29 +945,40 @@ body.about .header-image {
 -------------------------------------------------------------- */
 /* line 440, ../sass/style.scss */
 #footer {
+  color: #fff;
   text-align: center;
   background-color: #495259;
 }
-/* line 445, ../sass/style.scss */
+/* line 446, ../sass/style.scss */
 #footer h3 {
   color: #fff;
+  text-align: left;
 }
-/* line 449, ../sass/style.scss */
+@media (max-width: 1080px) {
+  /* line 446, ../sass/style.scss */
+  #footer h3 {
+    text-align: center;
+  }
+}
+/* line 455, ../sass/style.scss */
 #footer a {
   font-weight: 400;
 }
-/* line 454, ../sass/style.scss */
+/* line 460, ../sass/style.scss */
 #footer li {
   margin-top: 10px;
 }
-/* line 458, ../sass/style.scss */
+/* line 464, ../sass/style.scss */
 #footer .label {
   color: #fff;
 }
-/* line 463, ../sass/style.scss */
+/* line 469, ../sass/style.scss */
 #footer .inner {
   padding: 80px;
   *zoom: 1;
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
 }
 /* line 38, ../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
 #footer .inner:after {
@@ -975,24 +986,41 @@ body.about .header-image {
   display: table;
   clear: both;
 }
-/* line 468, ../sass/style.scss */
+/* line 480, ../sass/style.scss */
 #footer .social-icons {
   font-size: 4em;
 }
-/* line 472, ../sass/style.scss */
+/* line 484, ../sass/style.scss */
+#footer .section {
+  width: 33.3%;
+  float: left;
+  text-align: left;
+}
+@media (max-width: 1080px) {
+  /* line 484, ../sass/style.scss */
+  #footer .section {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+/* line 500, ../sass/style.scss */
 #footer .section.logo {
+  width: 10%;
+  display: none;
   margin-bottom: 40px;
 }
-/* line 475, ../sass/style.scss */
+/* line 505, ../sass/style.scss */
 #footer .section.logo img {
   width: 100px;
 }
-/* line 481, ../sass/style.scss */
+/* line 511, ../sass/style.scss */
 #footer .section + .section {
   margin-top: 20px;
 }
 
-/* line 486, ../sass/style.scss */
+/* line 516, ../sass/style.scss */
 #copy {
   text-transform: uppercase;
   padding: 20px;
@@ -1005,18 +1033,18 @@ body.about .header-image {
 
 /* INTRO
 -------------------------------------------------------------- */
-/* line 499, ../sass/style.scss */
+/* line 529, ../sass/style.scss */
 #slides {
   position: relative;
   background-color: #495259;
 }
 
-/* line 505, ../sass/style.scss */
+/* line 535, ../sass/style.scss */
 .slide {
   position: relative;
   width: 100%;
 }
-/* line 511, ../sass/style.scss */
+/* line 541, ../sass/style.scss */
 .slide .inner {
   display: block;
   vertical-align: middle;
@@ -1024,19 +1052,18 @@ body.about .header-image {
   position: relative;
   padding: 160px 80px 80px;
 }
-@media (max-width: 1200px) {
-  /* line 522, ../sass/style.scss */
+@media (max-width: 700px) {
+  /* line 535, ../sass/style.scss */
+  .slide {
+    display: block;
+  }
+  /* line 567, ../sass/style.scss */
   .slide .inner {
-    vertical-align: top;
+    display: block;
+    padding: 100px 20px 20px;
   }
 }
-@media (max-width: 1080px) {
-  /* line 528, ../sass/style.scss */
-  .slide .inner {
-    vertical-align: top;
-  }
-}
-/* line 540, ../sass/style.scss */
+/* line 574, ../sass/style.scss */
 .slide p {
   color: #fff;
   font-size: 6em;
@@ -1044,27 +1071,27 @@ body.about .header-image {
   max-width: 1200px;
 }
 @media (max-width: 1200px) {
-  /* line 540, ../sass/style.scss */
+  /* line 574, ../sass/style.scss */
   .slide p {
     font-size: 5em;
     line-height: 80px;
   }
 }
 @media (max-width: 1080px) {
-  /* line 540, ../sass/style.scss */
+  /* line 574, ../sass/style.scss */
   .slide p {
     font-size: 4em;
     line-height: 60px;
   }
 }
 @media (max-width: 700px) {
-  /* line 540, ../sass/style.scss */
+  /* line 574, ../sass/style.scss */
   .slide p {
-    font-size: 3em;
+    font-size: 2em;
     line-height: 50px;
   }
 }
-/* line 564, ../sass/style.scss */
+/* line 598, ../sass/style.scss */
 .slide .more {
   position: absolute;
   bottom: 20px;
@@ -1072,7 +1099,7 @@ body.about .header-image {
   width: 100%;
 }
 
-/* line 572, ../sass/style.scss */
+/* line 606, ../sass/style.scss */
 .more {
   font-weight: 800;
   color: #fff;
@@ -1081,7 +1108,7 @@ body.about .header-image {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 585, ../sass/style.scss */
+/* line 619, ../sass/style.scss */
 .more .arrow-down {
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
@@ -1091,19 +1118,26 @@ body.about .header-image {
   display: block;
   margin-top: 30px;
 }
-/* line 594, ../sass/style.scss */
+/* line 628, ../sass/style.scss */
 .more .arrow-down span {
   font-weight: 400;
 }
 @media (max-width: 1200px) {
-  /* line 572, ../sass/style.scss */
+  /* line 606, ../sass/style.scss */
   .more {
     width: 100%;
     right: 0;
   }
 }
+@media (max-width: 700px) {
+  /* line 606, ../sass/style.scss */
+  .more {
+    font-size: 2em;
+    line-height: 30px;
+  }
+}
 
-/* line 615, ../sass/style.scss */
+/* line 650, ../sass/style.scss */
 .click-here {
   max-width: 170px;
   position: relative;
@@ -1111,7 +1145,7 @@ body.about .header-image {
   left: 100px;
 }
 
-/* line 623, ../sass/style.scss */
+/* line 658, ../sass/style.scss */
 #slides #slide-1 {
   background: url("../images/BH-corduroy-jacket.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1122,7 +1156,7 @@ body.about .header-image {
   height: 100vh;
 }
 @media (max-width: 700px) {
-  /* line 623, ../sass/style.scss */
+  /* line 658, ../sass/style.scss */
   #slides #slide-1 {
     background: url("../images/BH-corduroy-jacket.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -1131,13 +1165,25 @@ body.about .header-image {
     background-size: cover;
   }
 }
-/* line 628, ../sass/style.scss */
+/* line 663, ../sass/style.scss */
 #slides #slide-1 .inner {
   padding: 0 80px;
   display: table-cell;
 }
+@media (max-width: 700px) {
+  /* line 658, ../sass/style.scss */
+  #slides #slide-1 {
+    display: block;
+  }
+  /* line 671, ../sass/style.scss */
+  #slides #slide-1 .inner {
+    height: 100vh;
+    display: block;
+    padding: 100px 20px 20px;
+  }
+}
 
-/* line 640, ../sass/style.scss */
+/* line 680, ../sass/style.scss */
 #slide-2 {
   background: url("../images/BH-camera-bracelet.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1146,7 +1192,7 @@ body.about .header-image {
   background-size: cover;
 }
 @media (max-width: 700px) {
-  /* line 640, ../sass/style.scss */
+  /* line 680, ../sass/style.scss */
   #slide-2 {
     background: url("../images/BH-camera-bracelet.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -1155,12 +1201,18 @@ body.about .header-image {
     background-size: cover;
   }
 }
-/* line 643, ../sass/style.scss */
+/* line 683, ../sass/style.scss */
 #slide-2 .inner {
   padding-bottom: 300px;
 }
+@media (max-width: 700px) {
+  /* line 683, ../sass/style.scss */
+  #slide-2 .inner {
+    padding-bottom: 200px;
+  }
+}
 
-/* line 648, ../sass/style.scss */
+/* line 692, ../sass/style.scss */
 #slide-3 {
   background: url("../images/intro/BH-show.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1169,7 +1221,7 @@ body.about .header-image {
   background-size: cover;
 }
 @media (max-width: 700px) {
-  /* line 648, ../sass/style.scss */
+  /* line 692, ../sass/style.scss */
   #slide-3 {
     background: url("../images/intro/BH-show.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -1178,12 +1230,18 @@ body.about .header-image {
     background-size: cover;
   }
 }
-/* line 651, ../sass/style.scss */
+/* line 695, ../sass/style.scss */
 #slide-3 .inner {
   padding-bottom: 300px;
 }
+@media (max-width: 700px) {
+  /* line 695, ../sass/style.scss */
+  #slide-3 .inner {
+    padding-bottom: 200px;
+  }
+}
 
-/* line 656, ../sass/style.scss */
+/* line 704, ../sass/style.scss */
 #slide-4 {
   background: url("../images/BH-Bringhub-Demo-Devices.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1194,7 +1252,7 @@ body.about .header-image {
   height: 100vh;
 }
 @media (max-width: 700px) {
-  /* line 656, ../sass/style.scss */
+  /* line 704, ../sass/style.scss */
   #slide-4 {
     background: url("../images/BH-Bringhub-Demo-Devices.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -1203,47 +1261,47 @@ body.about .header-image {
     background-size: cover;
   }
 }
-/* line 662, ../sass/style.scss */
+/* line 710, ../sass/style.scss */
 #slide-4 .inner {
   text-align: center;
   padding: 0 80px;
   display: table-cell;
 }
-/* line 667, ../sass/style.scss */
+/* line 715, ../sass/style.scss */
 #slide-4 .inner img {
   max-width: 1000px;
 }
 
-/* line 673, ../sass/style.scss */
+/* line 721, ../sass/style.scss */
 #slide-5 {
   background-color: #80b1d2;
 }
 
-/* line 677, ../sass/style.scss */
+/* line 725, ../sass/style.scss */
 .arrows {
   color: #fff;
 }
-/* line 681, ../sass/style.scss */
+/* line 729, ../sass/style.scss */
 .arrows span {
   font-weight: 400;
 }
 
 /* FORMS
 -------------------------------------------------------------- */
-/* line 689, ../sass/style.scss */
+/* line 737, ../sass/style.scss */
 form {
   max-width: 600px;
   margin: auto;
   margin-top: 80px;
 }
 
-/* line 695, ../sass/style.scss */
+/* line 743, ../sass/style.scss */
 label {
   font-size: 1.5em;
   display: block;
 }
 
-/* line 701, ../sass/style.scss */
+/* line 749, ../sass/style.scss */
 input[type='text'],
 input[type='url'],
 input[type='email'],
@@ -1256,7 +1314,7 @@ textarea {
   color: #495259;
   background-color: #dfeffa;
 }
-/* line 713, ../sass/style.scss */
+/* line 761, ../sass/style.scss */
 input[type='text']:focus,
 input[type='url']:focus,
 input[type='email']:focus,
@@ -1264,19 +1322,19 @@ textarea:focus {
   background-color: #fff;
 }
 
-/* line 718, ../sass/style.scss */
+/* line 766, ../sass/style.scss */
 select {
   width: 50%;
   font-family: "Open Sans", sans-serif;
   color: #495259;
 }
 
-/* line 725, ../sass/style.scss */
+/* line 773, ../sass/style.scss */
 .form-item {
   margin-bottom: 20px;
 }
 
-/* line 729, ../sass/style.scss */
+/* line 777, ../sass/style.scss */
 .form-group {
   *zoom: 1;
 }
@@ -1286,28 +1344,28 @@ select {
   display: table;
   clear: both;
 }
-/* line 732, ../sass/style.scss */
+/* line 780, ../sass/style.scss */
 .form-group .left,
 .form-group .right {
   width: 50%;
   float: left;
 }
-/* line 738, ../sass/style.scss */
+/* line 786, ../sass/style.scss */
 .form-group .left {
   padding-right: 20px;
 }
-/* line 742, ../sass/style.scss */
+/* line 790, ../sass/style.scss */
 .form-group .right {
   padding-left: 20px;
 }
 
-/* line 748, ../sass/style.scss */
+/* line 796, ../sass/style.scss */
 .actions {
   text-align: center;
   margin-top: 20px;
 }
 
-/* line 753, ../sass/style.scss */
+/* line 801, ../sass/style.scss */
 input[type='submit'] {
   font-family: "Open Sans", sans-serif;
   background: none;
@@ -1319,27 +1377,27 @@ input[type='submit'] {
   background-color: #495259;
   padding: 10px 30px;
 }
-/* line 765, ../sass/style.scss */
+/* line 813, ../sass/style.scss */
 input[type='submit']:hover {
   background-color: #fff;
   color: #495259;
 }
 
-/* line 772, ../sass/style.scss */
+/* line 820, ../sass/style.scss */
 .text-center {
   text-align: center !important;
 }
 
 /* FAKE ARTICLE
 -------------------------------------------------------------- */
-/* line 779, ../sass/style.scss */
+/* line 827, ../sass/style.scss */
 #fake-holder {
   padding: 80px;
   font-family: "Georgia", sans-serif;
   color: #000;
 }
 
-/* line 786, ../sass/style.scss */
+/* line 834, ../sass/style.scss */
 #fake-article {
   *zoom: 1;
   max-width: 900px;
@@ -1351,7 +1409,7 @@ input[type='submit']:hover {
   display: table;
   clear: both;
 }
-/* line 791, ../sass/style.scss */
+/* line 839, ../sass/style.scss */
 #fake-article .logo {
   text-transform: uppercase;
   font-family: "Bebas", serif;
@@ -1359,7 +1417,7 @@ input[type='submit']:hover {
   text-align: center;
   letter-spacing: 2px;
 }
-/* line 799, ../sass/style.scss */
+/* line 847, ../sass/style.scss */
 #fake-article .nav {
   text-align: center;
   padding: 20px 0;
@@ -1367,7 +1425,7 @@ input[type='submit']:hover {
   border-bottom: #000 solid 1px;
   margin-bottom: 20px;
 }
-/* line 807, ../sass/style.scss */
+/* line 855, ../sass/style.scss */
 #fake-article .nav li {
   display: inline-block;
   vertical-align: middle;
@@ -1376,14 +1434,14 @@ input[type='submit']:hover {
   *display: inline;
   margin: 0 20px;
 }
-/* line 812, ../sass/style.scss */
+/* line 860, ../sass/style.scss */
 #fake-article .nav a {
   color: #000;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 2px;
 }
-/* line 820, ../sass/style.scss */
+/* line 868, ../sass/style.scss */
 #fake-article .meta {
   padding: 10px 0;
   border-top: #000 solid 1px;
@@ -1393,7 +1451,7 @@ input[type='submit']:hover {
   color: #999;
   font-family: "LatoLight", sans-serif;
 }
-/* line 830, ../sass/style.scss */
+/* line 878, ../sass/style.scss */
 #fake-article h1 {
   font-family: "Bebas", serif;
   font-weight: normal;
@@ -1403,27 +1461,27 @@ input[type='submit']:hover {
   margin: 20px 0;
   letter-spacing: 1px;
 }
-/* line 840, ../sass/style.scss */
+/* line 888, ../sass/style.scss */
 #fake-article p {
   margin-bottom: 20px;
   max-width: 600px;
 }
-/* line 845, ../sass/style.scss */
+/* line 893, ../sass/style.scss */
 #fake-article .left {
   width: 70%;
   float: left;
   padding-right: 40px;
 }
-/* line 851, ../sass/style.scss */
+/* line 899, ../sass/style.scss */
 #fake-article .right {
   width: 30%;
   float: left;
 }
-/* line 856, ../sass/style.scss */
+/* line 904, ../sass/style.scss */
 #fake-article .shop {
   text-align: center;
 }
-/* line 859, ../sass/style.scss */
+/* line 907, ../sass/style.scss */
 #fake-article .shop a {
   background-color: #000;
   color: #fff;
