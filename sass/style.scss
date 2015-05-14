@@ -2,7 +2,7 @@
 @import "_reset";
 @import "_fonts";
 @import "_icons";
-@import "_bh_icons";
+//@import "_bh_icons";
 @import "_base";
 
 /* BASIC STYLES
@@ -85,6 +85,12 @@ p .highlight{
 
 .icons.footer{
   margin-bottom: 0;
+  margin-top: 40px;
+}
+
+.icons.small{
+  text-align: center;
+  font-size: 4em;
   margin-top: 40px;
 }
 
@@ -355,15 +361,22 @@ body.nav-open{
 
 /* Publisher
 -------------------------------------------------------------- */
-
-
-
-
 #pub-divider-1{
   @include bg_full('../images/BH-demo.jpg');
 }
 
 #pub-divider-2{
+  @include bg_full('../images/BH-corduroy-jacket.jpg');
+}
+
+
+/* Retailer
+-------------------------------------------------------------- */
+#re-divider-1{
+  @include bg_full('../images/BH-camera-bracelet.jpg');
+}
+
+#re-divider-2{
   @include bg_full('../images/BH-corduroy-jacket.jpg');
 }
 
@@ -759,6 +772,105 @@ input[type='submit']{
 .text-center{
   text-align: center !important;
 }
+
+
+/* FAKE ARTICLE
+-------------------------------------------------------------- */
+#fake-holder{
+  padding: 80px;
+  font-family: $font_main_fake;
+  color: #000;
+}
+
+
+#fake-article{
+  @include pie-clearfix;
+  max-width: 900px;
+  margin: auto;
+
+  .logo{
+    text-transform: uppercase;
+    font-family: $font_fancy_fake;
+    font-size: 5em;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  .nav{
+    text-align: center;
+    padding: 20px 0;
+    border-top: #000 solid 1px;
+    border-bottom: #000 solid 1px;
+    margin-bottom: 20px;
+    //background-color: #f1f1f1;
+
+    li{
+      @include inline-block;
+      margin: 0 20px;
+    }
+
+    a{
+      color: #000;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+  }
+
+  .meta{
+    padding: 10px 0;
+    border-top: #000 solid 1px;
+    border-bottom: #000 solid 1px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #999;
+    font-family: $font_header_fake;
+  }
+
+  h1{
+    font-family: $font_fancy_fake;
+    font-weight: normal;
+    font-size: 40px;
+    text-transform: none;
+    text-align: left;
+    margin: 20px 0;
+    letter-spacing: 1px;  
+  }
+
+  p{
+    margin-bottom: 20px;
+    max-width: 600px;
+  }
+
+  .left{
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+  }
+
+  .right{
+    width: 30%;
+    float: left;
+  }
+
+  .shop{
+    text-align: center;
+
+    a{
+      background-color: #000 ;
+      color: #fff;
+      font-family: $font_fancy_fake;
+      letter-spacing: 2px;
+      display: block;
+      padding: 20px;
+      font-size: 30px;
+    }
+  }
+}
+
+
+
+
 
 
 

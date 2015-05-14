@@ -55,6 +55,33 @@
 						</div>
 					</div>
 				</div>
+				
+				<div class="section bg-dk">
+					<div class="inner">
+						<h1>Below is a fake blog.</h1>
+						<p class="text-center">Click the <span class="highlight">"SHOP THIS LOOK"</span> button to see the power of Bringhub!</p>
+						<div class="icons small">
+							<span class="bh-icon-triangle-down"></span>
+							<span class="bh-icon-triangle-down"></span>
+							<span class="bh-icon-triangle-down"></span>
+							<span class="bh-icon-triangle-down"></span>
+							<span class="bh-icon-triangle-down"></span>
+							<span class="bh-icon-triangle-down"></span>
+						</div>
+					</div>
+				</div>
+
+				<div id="fake-holder">
+					<?php include 'includes/_fake-article.php'; ?>	
+				</div>
+
+				<div class="section bg-dk">
+					<div class="inner">
+						<h1>End of fake blog.</h1>
+						<p class="text-center">Pretty cool, right?  </p>
+						
+					</div>
+				</div>
 
 				<div id="cta" class="section bg-accent">
 					<div class="inner">

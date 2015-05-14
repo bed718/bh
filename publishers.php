@@ -27,8 +27,9 @@
 				<div class="section">
 					<div class="inner">
 						<div class="icons header">
-							<span class="bh-icon-help"></span>
-
+							<span class="bh-icon-shopping-cart"></span>
+							<span class="bh-icon-arrow-bold-right"></span>
+							<span class="bh-icon-laptop"></span>
 						</div>
 						<h1>I'm still a little fuzzy.<br /> Can you tell me more about what Bringhub <span>is</span>?</h1>
 						<p>Bringhub is a revolution that is changing the way people around the world shop. It's changing the way publishers&mdash;like you&mdash;monetize content. </p>
@@ -125,7 +126,7 @@
 				<div class="section">
 					<div class="inner">
 						<div class="icons header">
-							<span class="bh-icon-line-graph"></span>
+							<span class="bh-icon-line-chart"></span>
 						</div>
 						<h1>Do I have access to any metrics of any kind?</h1>
 						<h3>Of course! Data is king!</h3>

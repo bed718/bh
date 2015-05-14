@@ -28,7 +28,7 @@
 		} 
 		echo '<title>Bringhub'.$title.'</title>'; 
 		?>
-
+		<link rel="stylesheet" href="http://i.icomoon.io/public/temp/7b6fcf8f60/BringHub/style.css">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,300,800,400' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="/css/style.css">
 
