@@ -23,6 +23,7 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+
 .bh-icon-classic-computer:before {
 	content: "\e600";
 }
@@ -81,6 +82,22 @@
 
 .bh-icon-trash:before {
 	content: "\e60e";
+}
+
+.bh-icon-triangle-down:before {
+	content: "\e637";
+}
+
+.bh-icon-triangle-left:before {
+	content: "\e638";
+}
+
+.bh-icon-triangle-right:before {
+	content: "\e639";
+}
+
+.bh-icon-triangle-up:before {
+	content: "\e63a";
 }
 
 .bh-icon-address:before {
@@ -242,4 +259,5 @@
 .bh-icon-twitter:before {
 	content: "\e636";
 }
+
 
