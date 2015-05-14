@@ -53,6 +53,11 @@ h1{
   font-size: 4em;
   text-align: center;
   line-height: 60px;
+
+  @include bp(s){
+    font-size: 1.5em;
+    line-height: 30px;
+  }
 }
 
 h2{
@@ -62,6 +67,11 @@ h2{
 h3{
   font-size: 2em;
   text-align: center;
+
+  @include bp(s){
+    font-size: 1.2em;
+    line-height: 30px;
+  }
 }
 
 .fancy{
@@ -81,17 +91,35 @@ p .highlight{
   margin-bottom: 40px;
   position: relative;
   //color: $color_accent;
+
+  @include bp(s){
+    font-size: 4em;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
 }
 
 .icons.footer{
   margin-bottom: 0;
   margin-top: 40px;
+
+  @include bp(s){
+    font-size: 4em;
+    line-height: 30px;
+    margin-top: 20px;
+  }
 }
 
 .icons.small{
   text-align: center;
   font-size: 4em;
   margin-top: 40px;
+
+  @include bp(s){
+    font-size: 4em;
+    line-height: 30px;
+    margin-top: 20px;
+  }
 }
 
 
@@ -274,7 +302,7 @@ body.nav-open{
       
     .inner{
       max-width: $bp_lg;
-     margin: auto;
+      margin: auto;
       padding: 80px;
     }
 
@@ -290,14 +318,30 @@ body.nav-open{
       font-size: 1.2em;
     }
 
-    p + p,
-    h3 + p,
-    h1 + p,
-    p + h3,
-    h3{
+    h1, h3, p{
       margin-top: 40px; 
     }
 
+  }
+
+  @include bp(s){
+    padding-top: 50px;
+
+    .section{
+
+      .inner{
+        padding: 80px 20px;
+      }
+
+      h1, h3, p{
+        margin-top: 20px; 
+      }
+      
+      p{
+        text-align: left;
+        font-size: 1em;
+      }
+    }
   }
 }
 
@@ -426,12 +470,29 @@ body.about{
     font-size: 1em;
     letter-spacing: 2px;
     font-weight: 400;
+    margin-top: 0 !important;
+  }
+
+  @include bp(s){
+    max-width: 100%;
+    float: none;
+    margin-bottom: 20px;
+    padding: 0;
+    margin-bottom: 40px;
+
+    p{
+      margin-top: 10px !important;
+    }
   }
 
 }
 
 .investor{
   max-width: 25%;
+
+  @include bp(s){
+    max-width: 100%;
+  }
 }
 
 
@@ -467,7 +528,7 @@ body.about{
   }
 
   .inner{
-    padding: 80px;
+    padding: 80px 20px;
     @include pie-clearfix;
     max-width: $bp_lg;
     margin: auto;
@@ -738,12 +799,21 @@ form{
   max-width: 600px;
   margin: auto;
   margin-top: 80px;
+
+  @include bp(s){
+    margin-top: 20px;
+  }
 }
 
 label{
   @extend %header_font;
   font-size: 1.5em;
   display: block;
+
+  @include bp(s){
+    font-size: 1em;
+
+  }
 }
 
 input[type='text'],
@@ -789,6 +859,15 @@ select{
 
   .right{
     padding-left: 20px;
+  }
+
+  @include bp(s){
+    .left,
+    .right{
+      float: none;
+      padding: 0;
+      width: 100%;
+    }
   }
 
 }

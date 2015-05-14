@@ -139,6 +139,15 @@
 					</div>
 				</div>
 
+				<div class="section bg-med">
+					<div class="inner">
+						<h1>Ready to hear more?</h1>
+						<div class="icons footer">
+							<div class="bh-icon-triangle-down"></div>
+						</div>
+					</div>
+				</div>
+
 
 				<div id="cta" class="section bg-accent">
 					<div class="inner">
