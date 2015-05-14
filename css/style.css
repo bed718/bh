@@ -1129,18 +1129,32 @@ body.about .header-image {
   position: relative;
   padding: 160px 80px 80px;
 }
+/* line 613, ../sass/style.scss */
+.slide.short .inner {
+  padding: 0;
+  position: relative;
+}
+/* line 619, ../sass/style.scss */
+.slide.short p {
+  color: #fff !important;
+  background-color: #495259;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  font-size: 3em;
+}
 @media (max-width: 700px) {
   /* line 596, ../sass/style.scss */
   .slide {
     display: block;
   }
-  /* line 628, ../sass/style.scss */
+  /* line 648, ../sass/style.scss */
   .slide .inner {
     display: block;
     padding: 100px 20px 20px;
   }
 }
-/* line 635, ../sass/style.scss */
+/* line 655, ../sass/style.scss */
 .slide p {
   color: #fff;
   font-size: 6em;
@@ -1148,27 +1162,27 @@ body.about .header-image {
   max-width: 1200px;
 }
 @media (max-width: 1200px) {
-  /* line 635, ../sass/style.scss */
+  /* line 655, ../sass/style.scss */
   .slide p {
     font-size: 5em;
     line-height: 80px;
   }
 }
 @media (max-width: 1080px) {
-  /* line 635, ../sass/style.scss */
+  /* line 655, ../sass/style.scss */
   .slide p {
     font-size: 4em;
     line-height: 60px;
   }
 }
 @media (max-width: 700px) {
-  /* line 635, ../sass/style.scss */
+  /* line 655, ../sass/style.scss */
   .slide p {
     font-size: 2em;
     line-height: 50px;
   }
 }
-/* line 659, ../sass/style.scss */
+/* line 679, ../sass/style.scss */
 .slide .more {
   position: absolute;
   bottom: 20px;
@@ -1176,7 +1190,7 @@ body.about .header-image {
   width: 100%;
 }
 
-/* line 667, ../sass/style.scss */
+/* line 687, ../sass/style.scss */
 .more {
   font-weight: 800;
   color: #fff;
@@ -1185,7 +1199,7 @@ body.about .header-image {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 680, ../sass/style.scss */
+/* line 700, ../sass/style.scss */
 .more .arrow-down {
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
@@ -1195,26 +1209,26 @@ body.about .header-image {
   display: block;
   margin-top: 30px;
 }
-/* line 689, ../sass/style.scss */
+/* line 709, ../sass/style.scss */
 .more .arrow-down span {
   font-weight: 400;
 }
 @media (max-width: 1200px) {
-  /* line 667, ../sass/style.scss */
+  /* line 687, ../sass/style.scss */
   .more {
     width: 100%;
     right: 0;
   }
 }
 @media (max-width: 700px) {
-  /* line 667, ../sass/style.scss */
+  /* line 687, ../sass/style.scss */
   .more {
     font-size: 2em;
     line-height: 30px;
   }
 }
 
-/* line 711, ../sass/style.scss */
+/* line 731, ../sass/style.scss */
 .click-here {
   max-width: 170px;
   position: relative;
@@ -1222,7 +1236,7 @@ body.about .header-image {
   left: 100px;
 }
 
-/* line 719, ../sass/style.scss */
+/* line 739, ../sass/style.scss */
 #slides #slide-1 {
   background: url("../images/BH-corduroy-jacket.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1233,7 +1247,7 @@ body.about .header-image {
   height: 100vh;
 }
 @media (max-width: 700px) {
-  /* line 719, ../sass/style.scss */
+  /* line 739, ../sass/style.scss */
   #slides #slide-1 {
     background: url("../images/BH-corduroy-jacket.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -1242,17 +1256,17 @@ body.about .header-image {
     background-size: cover;
   }
 }
-/* line 724, ../sass/style.scss */
+/* line 744, ../sass/style.scss */
 #slides #slide-1 .inner {
   padding: 0 80px;
   display: table-cell;
 }
 @media (max-width: 700px) {
-  /* line 719, ../sass/style.scss */
+  /* line 739, ../sass/style.scss */
   #slides #slide-1 {
     display: block;
   }
-  /* line 732, ../sass/style.scss */
+  /* line 752, ../sass/style.scss */
   #slides #slide-1 .inner {
     height: 100vh;
     display: block;
@@ -1260,7 +1274,7 @@ body.about .header-image {
   }
 }
 
-/* line 741, ../sass/style.scss */
+/* line 761, ../sass/style.scss */
 #slide-2 {
   background: url("../images/BH-camera-bracelet.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1269,7 +1283,7 @@ body.about .header-image {
   background-size: cover;
 }
 @media (max-width: 700px) {
-  /* line 741, ../sass/style.scss */
+  /* line 761, ../sass/style.scss */
   #slide-2 {
     background: url("../images/BH-camera-bracelet.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -1278,18 +1292,18 @@ body.about .header-image {
     background-size: cover;
   }
 }
-/* line 744, ../sass/style.scss */
+/* line 764, ../sass/style.scss */
 #slide-2 .inner {
   padding-bottom: 300px;
 }
 @media (max-width: 700px) {
-  /* line 744, ../sass/style.scss */
+  /* line 764, ../sass/style.scss */
   #slide-2 .inner {
     padding-bottom: 200px;
   }
 }
 
-/* line 753, ../sass/style.scss */
+/* line 773, ../sass/style.scss */
 #slide-3 {
   background: url("../images/intro/BH-show.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1298,7 +1312,7 @@ body.about .header-image {
   background-size: cover;
 }
 @media (max-width: 700px) {
-  /* line 753, ../sass/style.scss */
+  /* line 773, ../sass/style.scss */
   #slide-3 {
     background: url("../images/intro/BH-show.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -1307,90 +1321,123 @@ body.about .header-image {
     background-size: cover;
   }
 }
-/* line 756, ../sass/style.scss */
+/* line 776, ../sass/style.scss */
 #slide-3 .inner {
   padding-bottom: 300px;
 }
 @media (max-width: 700px) {
-  /* line 756, ../sass/style.scss */
+  /* line 776, ../sass/style.scss */
   #slide-3 .inner {
     padding-bottom: 200px;
   }
 }
 
-/* line 765, ../sass/style.scss */
+/* line 785, ../sass/style.scss */
 #slide-4 {
-  background: url("../images/BH-Bringhub-Demo-Devices.jpg") no-repeat center center fixed;
+  background: url("../images/BH-imac.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  display: table;
-  height: 100vh;
 }
 @media (max-width: 700px) {
-  /* line 765, ../sass/style.scss */
+  /* line 785, ../sass/style.scss */
   #slide-4 {
-    background: url("../images/BH-Bringhub-Demo-Devices.jpg") no-repeat center center;
+    background: url("../images/BH-imac.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
 }
-/* line 771, ../sass/style.scss */
+/* line 801, ../sass/style.scss */
 #slide-4 .inner {
-  text-align: center;
-  padding: 0 80px;
-  display: table-cell;
-}
-/* line 776, ../sass/style.scss */
-#slide-4 .inner img {
-  max-width: 1000px;
+  min-height: 80vh;
 }
 
-/* line 782, ../sass/style.scss */
+/* line 806, ../sass/style.scss */
 #slide-5 {
-  background-color: #80b1d2;
+  background: url("../images/BH-ipad.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media (max-width: 700px) {
+  /* line 806, ../sass/style.scss */
+  #slide-5 {
+    background: url("../images/BH-ipad.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+/* line 809, ../sass/style.scss */
+#slide-5 .inner {
+  min-height: 80vh;
 }
 
-/* line 786, ../sass/style.scss */
+/* line 815, ../sass/style.scss */
+#slide-6 {
+  background: url("../images/BH-iphone.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media (max-width: 700px) {
+  /* line 815, ../sass/style.scss */
+  #slide-6 {
+    background: url("../images/BH-iphone.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+/* line 818, ../sass/style.scss */
+#slide-6 .inner {
+  min-height: 80vh;
+}
+
+/* line 828, ../sass/style.scss */
 .arrows {
   color: #fff;
 }
-/* line 790, ../sass/style.scss */
+/* line 832, ../sass/style.scss */
 .arrows span {
   font-weight: 400;
 }
 
 /* FORMS
 -------------------------------------------------------------- */
-/* line 798, ../sass/style.scss */
+/* line 840, ../sass/style.scss */
 form {
   max-width: 600px;
   margin: auto;
   margin-top: 80px;
 }
 @media (max-width: 700px) {
-  /* line 798, ../sass/style.scss */
+  /* line 840, ../sass/style.scss */
   form {
     margin-top: 20px;
   }
 }
 
-/* line 808, ../sass/style.scss */
+/* line 850, ../sass/style.scss */
 label {
   font-size: 1.5em;
   display: block;
 }
 @media (max-width: 700px) {
-  /* line 808, ../sass/style.scss */
+  /* line 850, ../sass/style.scss */
   label {
     font-size: 1em;
   }
 }
 
-/* line 819, ../sass/style.scss */
+/* line 861, ../sass/style.scss */
 input[type='text'],
 input[type='url'],
 input[type='email'],
@@ -1403,27 +1450,20 @@ textarea {
   color: #495259;
   background-color: #dfeffa;
 }
-/* line 831, ../sass/style.scss */
-input[type='text']:focus,
-input[type='url']:focus,
-input[type='email']:focus,
-textarea:focus {
-  background-color: #fff;
-}
 
-/* line 836, ../sass/style.scss */
+/* line 875, ../sass/style.scss */
 select {
   width: 50%;
   font-family: "Open Sans", sans-serif;
   color: #495259;
 }
 
-/* line 843, ../sass/style.scss */
+/* line 882, ../sass/style.scss */
 .form-item {
   margin-bottom: 20px;
 }
 
-/* line 847, ../sass/style.scss */
+/* line 886, ../sass/style.scss */
 .form-group {
   *zoom: 1;
 }
@@ -1433,22 +1473,22 @@ select {
   display: table;
   clear: both;
 }
-/* line 850, ../sass/style.scss */
+/* line 889, ../sass/style.scss */
 .form-group .left,
 .form-group .right {
   width: 50%;
   float: left;
 }
-/* line 856, ../sass/style.scss */
+/* line 895, ../sass/style.scss */
 .form-group .left {
   padding-right: 20px;
 }
-/* line 860, ../sass/style.scss */
+/* line 899, ../sass/style.scss */
 .form-group .right {
   padding-left: 20px;
 }
 @media (max-width: 700px) {
-  /* line 865, ../sass/style.scss */
+  /* line 904, ../sass/style.scss */
   .form-group .left,
   .form-group .right {
     float: none;
@@ -1457,13 +1497,13 @@ select {
   }
 }
 
-/* line 875, ../sass/style.scss */
+/* line 914, ../sass/style.scss */
 .actions {
   text-align: center;
   margin-top: 20px;
 }
 
-/* line 880, ../sass/style.scss */
+/* line 919, ../sass/style.scss */
 input[type='submit'] {
   font-family: "Open Sans", sans-serif;
   background: none;
@@ -1475,31 +1515,30 @@ input[type='submit'] {
   background-color: #495259;
   padding: 10px 30px;
 }
-/* line 892, ../sass/style.scss */
+/* line 931, ../sass/style.scss */
 input[type='submit']:hover {
   background-color: #fff;
   color: #495259;
 }
 
-/* line 899, ../sass/style.scss */
+/* line 938, ../sass/style.scss */
 .text-center {
   text-align: center !important;
 }
 
 /* FAKE ARTICLE
 -------------------------------------------------------------- */
-/* line 906, ../sass/style.scss */
+/* line 945, ../sass/style.scss */
 #fake-holder {
-  padding: 80px;
+  padding: 0;
   font-family: "Georgia", sans-serif;
-  color: #000;
+  color: #333;
+  margin-bottom: 60px;
 }
 
-/* line 913, ../sass/style.scss */
+/* line 953, ../sass/style.scss */
 #fake-article {
   *zoom: 1;
-  max-width: 900px;
-  margin: auto;
 }
 /* line 38, ../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
 #fake-article:after {
@@ -1507,85 +1546,164 @@ input[type='submit']:hover {
   display: table;
   clear: both;
 }
-/* line 918, ../sass/style.scss */
+/* line 956, ../sass/style.scss */
+#fake-article .content {
+  max-width: 1000px;
+  margin: auto;
+}
+/* line 961, ../sass/style.scss */
+#fake-article .header {
+  background-color: #eee;
+  padding: 60px 0;
+}
+/* line 966, ../sass/style.scss */
 #fake-article .logo {
-  text-transform: uppercase;
-  font-family: "Bebas", serif;
-  font-size: 5em;
-  text-align: center;
-  letter-spacing: 2px;
+  max-width: 600px;
+  margin: 0 auto;
 }
-/* line 926, ../sass/style.scss */
+/* line 976, ../sass/style.scss */
 #fake-article .nav {
-  text-align: center;
-  padding: 20px 0;
-  border-top: #000 solid 1px;
-  border-bottom: #000 solid 1px;
-  margin-bottom: 20px;
+  padding: 10px 0;
+  margin-bottom: 40px;
+  background-color: #333;
 }
-/* line 934, ../sass/style.scss */
+/* line 981, ../sass/style.scss */
+#fake-article .nav .inner {
+  max-width: 1000px;
+  margin: auto;
+}
+/* line 986, ../sass/style.scss */
 #fake-article .nav li {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
-  margin: 0 20px;
+  margin-right: 20px;
 }
-/* line 939, ../sass/style.scss */
+/* line 991, ../sass/style.scss */
 #fake-article .nav a {
-  color: #000;
+  color: #f5f5f5;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 18px;
   letter-spacing: 2px;
-}
-/* line 947, ../sass/style.scss */
-#fake-article .meta {
-  padding: 10px 0;
-  border-top: #000 solid 1px;
-  border-bottom: #000 solid 1px;
-  margin-bottom: 20px;
-  font-size: 14px;
-  color: #999;
-  font-family: "LatoLight", sans-serif;
-}
-/* line 957, ../sass/style.scss */
-#fake-article h1 {
   font-family: "Bebas", serif;
-  font-weight: normal;
-  font-size: 40px;
+}
+/* line 999, ../sass/style.scss */
+#fake-article .nav .icon-search {
+  float: right;
+  color: #f5f5f5;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding-right: 10px;
+}
+/* line 1008, ../sass/style.scss */
+#fake-article .meta {
+  padding: 0;
+  font-size: 18px;
+  color: #999;
+  font-family: "Bebas", serif;
+}
+/* line 1015, ../sass/style.scss */
+#fake-article h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
   text-transform: none;
   text-align: left;
-  margin: 20px 0;
+  margin: 0;
   letter-spacing: 1px;
 }
-/* line 967, ../sass/style.scss */
+/* line 1025, ../sass/style.scss */
+#fake-article h2 {
+  font-family: "LatoLight", sans-serif;
+  text-transform: none;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+/* line 1033, ../sass/style.scss */
 #fake-article p {
   margin-bottom: 20px;
+}
+/* line 1038, ../sass/style.scss */
+#fake-article .main {
+  width: 85%;
+  float: left;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+/* line 1045, ../sass/style.scss */
+#fake-article .body {
   max-width: 600px;
+  border-bottom: #DA322A 5px solid;
 }
-/* line 972, ../sass/style.scss */
-#fake-article .left {
-  width: 70%;
-  float: left;
-  padding-right: 40px;
-}
-/* line 978, ../sass/style.scss */
-#fake-article .right {
-  width: 30%;
+/* line 1050, ../sass/style.scss */
+#fake-article .side {
+  width: 15%;
   float: left;
 }
-/* line 983, ../sass/style.scss */
+/* line 1057, ../sass/style.scss */
+#fake-article .fake-social div {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+/* line 1062, ../sass/style.scss */
+#fake-article .fake-social div span {
+  font-family: "Bebas", serif;
+  margin-left: 10px;
+  font-size: 1.2em;
+}
+/* line 1069, ../sass/style.scss */
+#fake-article .fake-social .icon-facebook {
+  background-color: #3b5998;
+}
+/* line 1073, ../sass/style.scss */
+#fake-article .fake-social .icon-twitter {
+  background-color: #00aced;
+}
+/* line 1077, ../sass/style.scss */
+#fake-article .fake-social .icon-pinterest {
+  background-color: #c92228;
+}
+/* line 1083, ../sass/style.scss */
+#fake-article .image {
+  position: relative;
+  margin-bottom: 20px;
+}
+/* line 1088, ../sass/style.scss */
+#fake-article .shares {
+  text-align: center;
+  font-family: "Bebas", serif;
+  font-size: 1em;
+  margin: 20px 0;
+}
+/* line 1094, ../sass/style.scss */
+#fake-article .shares span {
+  font-size: 4em;
+  display: block;
+  line-height: 50px;
+}
+/* line 1102, ../sass/style.scss */
 #fake-article .shop {
+  right: 20px;
+  bottom: 20px;
+  position: absolute;
   text-align: center;
 }
-/* line 986, ../sass/style.scss */
+/* line 1108, ../sass/style.scss */
 #fake-article .shop a {
-  background-color: #000;
-  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  background-color: #fff;
+  color: #333;
   font-family: "Bebas", serif;
   letter-spacing: 2px;
   display: block;
-  padding: 20px;
-  font-size: 30px;
+  padding: 10px 20px;
+  font-size: 20px;
 }

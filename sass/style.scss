@@ -608,6 +608,26 @@ body.about{
       padding: 160px 80px 80px;
     }
 
+    &.short{
+
+      .inner{
+        padding: 0;
+        position: relative;
+
+      }
+
+      p{
+        color: $color_lt !important;
+        background-color: $color_main;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        font-size: 3em;
+
+      }
+      
+    }
+
     @include bp(l){
       
       .inner{
@@ -763,24 +783,46 @@ body.about{
 }
 
 #slide-4{
-  @include bg_full('../images/BH-Bringhub-Demo-Devices.jpg');
+  @include bg_full('../images/BH-imac.jpg');
 
-  display: table;
-  height: 100vh;
+  // display: table;
+  // height: 100vh;
+
+  // .inner{
+  //  text-align: center;
+  //   padding: 0 80px;
+  //   display: table-cell;
+
+  //   img{
+  //      max-width: 1000px;
+  //   }
+  // }
 
   .inner{
-   text-align: center;
-    padding: 0 80px;
-    display: table-cell;
-
-    img{
-       max-width: 1000px;
-    }
+    min-height: 80vh;
   }
 }
 
 #slide-5{
-  background-color: $color_accent;
+  @include bg_full('../images/BH-ipad.jpg');
+
+  .inner{
+    min-height: 80vh;
+  }
+
+}
+
+#slide-6{
+  @include bg_full('../images/BH-iphone.jpg');
+
+  .inner{
+    min-height: 80vh;
+  }
+
+}
+
+#slide-5{
+  
 }
 
 .arrows{
@@ -828,9 +870,6 @@ textarea{
   color: $color_main;
   background-color: #dfeffa;
 
-  &:focus{
-    background-color: $color_lt;
-  }
 }
 
 select{
@@ -904,93 +943,177 @@ input[type='submit']{
 /* FAKE ARTICLE
 -------------------------------------------------------------- */
 #fake-holder{
-  padding: 80px;
+  padding:  0;
   font-family: $font_main_fake;
-  color: #000;
+  color: #333;
+  margin-bottom: 60px;
 }
 
 
 #fake-article{
   @include pie-clearfix;
-  max-width: 900px;
-  margin: auto;
+  
+  .content{
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .header{
+    background-color: #eee;
+    padding: 60px 0;
+  }
 
   .logo{
-    text-transform: uppercase;
-    font-family: $font_fancy_fake;
-    font-size: 5em;
-    text-align: center;
-    letter-spacing: 2px;
+    // text-transform: uppercase;
+    // font-family: $font_fancy_fake;
+    // font-size: 5em;
+    // text-align: center;
+    // letter-spacing: 2px;
+    max-width: 600px;
+    margin: 0 auto ;
   }
 
   .nav{
-    text-align: center;
-    padding: 20px 0;
-    border-top: #000 solid 1px;
-    border-bottom: #000 solid 1px;
-    margin-bottom: 20px;
-    //background-color: #f1f1f1;
+    padding: 10px 0;
+    margin-bottom: 40px;
+    background-color: #333;
+
+    .inner{
+      max-width: 1000px;
+      margin: auto;
+    }
 
     li{
       @include inline-block;
-      margin: 0 20px;
+      margin-right: 20px;
     }
 
     a{
-      color: #000;
+      color: #f5f5f5;
       text-transform: uppercase;
-      font-size: 12px;
+      font-size: 18px;
       letter-spacing: 2px;
+      font-family: $font_fancy_fake;
+    }
+
+    .icon-search{
+      float: right;
+      color: #f5f5f5;
+      text-transform: uppercase;
+      font-size: 24px;
+      padding-right: 10px;
     }
   }
 
   .meta{
-    padding: 10px 0;
-    border-top: #000 solid 1px;
-    border-bottom: #000 solid 1px;
-    margin-bottom: 20px;
-    font-size: 14px;
+    padding:  0;
+    font-size: 18px;
     color: #999;
-    font-family: $font_header_fake;
+    font-family: $font_fancy_fake;
   }
 
   h1{
-    font-family: $font_fancy_fake;
-    font-weight: normal;
-    font-size: 40px;
+    font-family: $font_header;
+    font-weight: 800;
+    font-size: 50px;
     text-transform: none;
     text-align: left;
-    margin: 20px 0;
+    margin: 0;
     letter-spacing: 1px;  
+  }
+
+  h2{
+    font-family: $font_header_fake;
+    text-transform: none;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 40px;
   }
 
   p{
     margin-bottom: 20px;
-    max-width: 600px;
+    
   }
 
-  .left{
-    width: 70%;
+  .main{
+    width: 85%;
     float: left;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-bottom: 20px;
   }
 
-  .right{
-    width: 30%;
+  .body{
+      max-width: 600px;
+      border-bottom: #DA322A 5px solid;
+    }
+
+  .side{
+    width: 15%;
     float: left;
+  }
+
+  .fake-social{
+
+    div{
+      padding: 10px;
+      margin-bottom: 10px;
+      color: #fff;
+      
+      span{
+        font-family: $font_fancy_fake;
+        margin-left: 10px;
+        font-size: 1.2em;
+      }
+    }
+
+    .icon-facebook{
+      background-color: #3b5998;
+    }
+
+    .icon-twitter{
+      background-color: #00aced;
+    }
+
+    .icon-pinterest{
+      background-color: #c92228;
+    }
+
+  }
+
+  .image{
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .shares{
+    text-align: center;
+    font-family: $font_fancy_fake;
+    font-size: 1em;
+    margin: 20px 0;
+
+    span{
+      font-size: 4em;
+      display: block;
+      line-height: 50px;
+
+    }
   }
 
   .shop{
+    right: 20px;
+    bottom: 20px;
+    position: absolute;
     text-align: center;
 
     a{
-      background-color: #000 ;
-      color: #fff;
+      @include inline-block;
+      background-color: #fff ;
+      color: #333;
       font-family: $font_fancy_fake;
       letter-spacing: 2px;
       display: block;
-      padding: 20px;
-      font-size: 30px;
+      padding: 10px 20px;
+      font-size: 20px;
     }
   }
 }

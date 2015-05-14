@@ -42,23 +42,35 @@
 						</div>
 					</div>
 
-					<div id="slide-4" class="slide">
+					<div id="slide-4" class="slide short">
 						<div class="inner">
-							<img src="/images/BH-logo-white.svg" alt="Bring Hub logo" />
+							<p>Bringhub works on every device</p>
+
+						</div>
+					</div>
+
+					<div id="slide-5" class="slide short">
+						<div class="inner">
+							<p>Shop your favorite stuff, anywhere!</p>		
+						</div>
+					</div>
+
+					<div id="slide-6" class="slide short">
+						<div class="inner">
+							<p>Then say somehting else here.</p>
 							<div class="more">
 								<a href="#slide-5">
 								Give it<br />a try<br />
 								<span class="bh-icon-triangle-down"></span>
 								</a>
 							</div>
-						<!-- <div class="click-here"><a href=""><img src="/images/BH-click-here-btn.svg" alt="Bringhub Click Here"></a></div> -->
 						</div>
 					</div>
 				</div>
 				
 				<div class="section bg-dk">
 					<div class="inner">
-						<h1>Below is a fake blog.</h1>
+						<h1>Below is a sample blog.</h1>
 						<p class="text-center">Click the <span class="highlight">"SHOP THIS LOOK"</span> button to see the power of Bringhub!</p>
 						<div class="icons small">
 							<span class="bh-icon-triangle-down"></span>
