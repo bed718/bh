@@ -707,11 +707,11 @@ a.service-links-google-plus:before {
 /* PLACEHOLDERS & EXTENDS
 -------------------------------------------------------------- */
 /* line 79, ../sass/_base.scss */
-#nav a {
+#nav a, .more a {
   color: #fff;
 }
 /* line 82, ../sass/_base.scss */
-#nav a:hover {
+#nav a:hover, .more a:hover {
   color: #80b1d2;
 }
 
@@ -1290,7 +1290,7 @@ body.about .header-image {
   vertical-align: middle;
   min-height: 100vh;
   position: relative;
-  padding: 80px;
+  padding: 160px 80px 80px;
 }
 @media (max-width: 1200px) {
   /* line 509, ../sass/style.scss */
@@ -1349,7 +1349,7 @@ body.about .header-image {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 568, ../sass/style.scss */
+/* line 572, ../sass/style.scss */
 .more .arrow-down {
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
@@ -1359,7 +1359,7 @@ body.about .header-image {
   display: block;
   margin-top: 30px;
 }
-/* line 577, ../sass/style.scss */
+/* line 581, ../sass/style.scss */
 .more .arrow-down span {
   font-weight: 400;
 }
@@ -1371,7 +1371,7 @@ body.about .header-image {
   }
 }
 
-/* line 598, ../sass/style.scss */
+/* line 602, ../sass/style.scss */
 .click-here {
   max-width: 170px;
   position: relative;
@@ -1379,7 +1379,7 @@ body.about .header-image {
   left: 100px;
 }
 
-/* line 606, ../sass/style.scss */
+/* line 610, ../sass/style.scss */
 #slides #slide-1 {
   background: url("../images/BH-corduroy-jacket.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1390,7 +1390,7 @@ body.about .header-image {
   height: 100vh;
 }
 @media (max-width: 700px) {
-  /* line 606, ../sass/style.scss */
+  /* line 610, ../sass/style.scss */
   #slides #slide-1 {
     background: url("../images/BH-corduroy-jacket.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -1399,13 +1399,13 @@ body.about .header-image {
     background-size: cover;
   }
 }
-/* line 613, ../sass/style.scss */
+/* line 615, ../sass/style.scss */
 #slides #slide-1 .inner {
   padding: 0 80px;
   display: table-cell;
 }
 
-/* line 625, ../sass/style.scss */
+/* line 627, ../sass/style.scss */
 #slide-2 {
   background: url("../images/BH-camera-bracelet.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1414,7 +1414,7 @@ body.about .header-image {
   background-size: cover;
 }
 @media (max-width: 700px) {
-  /* line 625, ../sass/style.scss */
+  /* line 627, ../sass/style.scss */
   #slide-2 {
     background: url("../images/BH-camera-bracelet.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -1423,12 +1423,12 @@ body.about .header-image {
     background-size: cover;
   }
 }
-/* line 628, ../sass/style.scss */
+/* line 630, ../sass/style.scss */
 #slide-2 .inner {
   padding-bottom: 300px;
 }
 
-/* line 633, ../sass/style.scss */
+/* line 635, ../sass/style.scss */
 #slide-3 {
   background: url("../images/intro/BH-show.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1437,7 +1437,7 @@ body.about .header-image {
   background-size: cover;
 }
 @media (max-width: 700px) {
-  /* line 633, ../sass/style.scss */
+  /* line 635, ../sass/style.scss */
   #slide-3 {
     background: url("../images/intro/BH-show.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -1446,21 +1446,23 @@ body.about .header-image {
     background-size: cover;
   }
 }
-/* line 636, ../sass/style.scss */
+/* line 638, ../sass/style.scss */
 #slide-3 .inner {
   padding-bottom: 300px;
 }
 
-/* line 641, ../sass/style.scss */
+/* line 643, ../sass/style.scss */
 #slide-4 {
   background: url("../images/BH-Bringhub-Demo-Devices.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  display: table;
+  height: 100vh;
 }
 @media (max-width: 700px) {
-  /* line 641, ../sass/style.scss */
+  /* line 643, ../sass/style.scss */
   #slide-4 {
     background: url("../images/BH-Bringhub-Demo-Devices.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -1469,41 +1471,47 @@ body.about .header-image {
     background-size: cover;
   }
 }
-/* line 644, ../sass/style.scss */
+/* line 649, ../sass/style.scss */
 #slide-4 .inner {
-  vertical-align: bottom !important;
+  text-align: center;
+  padding: 0 80px;
+  display: table-cell;
+}
+/* line 654, ../sass/style.scss */
+#slide-4 .inner img {
+  max-width: 1000px;
 }
 
-/* line 649, ../sass/style.scss */
+/* line 660, ../sass/style.scss */
 #slide-5 {
   background-color: #80b1d2;
 }
 
-/* line 653, ../sass/style.scss */
+/* line 664, ../sass/style.scss */
 .arrows {
   color: #fff;
 }
-/* line 657, ../sass/style.scss */
+/* line 668, ../sass/style.scss */
 .arrows span {
   font-weight: 400;
 }
 
 /* FORMS
 -------------------------------------------------------------- */
-/* line 665, ../sass/style.scss */
+/* line 676, ../sass/style.scss */
 form {
   max-width: 600px;
   margin: auto;
   margin-top: 80px;
 }
 
-/* line 671, ../sass/style.scss */
+/* line 682, ../sass/style.scss */
 label {
   font-size: 1.5em;
   display: block;
 }
 
-/* line 677, ../sass/style.scss */
+/* line 688, ../sass/style.scss */
 input[type='text'],
 input[type='url'],
 input[type='email'],
@@ -1516,7 +1524,7 @@ textarea {
   color: #495259;
   background-color: #dfeffa;
 }
-/* line 689, ../sass/style.scss */
+/* line 700, ../sass/style.scss */
 input[type='text']:focus,
 input[type='url']:focus,
 input[type='email']:focus,
@@ -1524,19 +1532,19 @@ textarea:focus {
   background-color: #fff;
 }
 
-/* line 694, ../sass/style.scss */
+/* line 705, ../sass/style.scss */
 select {
   width: 50%;
   font-family: "Open Sans", sans-serif;
   color: #495259;
 }
 
-/* line 701, ../sass/style.scss */
+/* line 712, ../sass/style.scss */
 .form-item {
   margin-bottom: 20px;
 }
 
-/* line 705, ../sass/style.scss */
+/* line 716, ../sass/style.scss */
 .form-group {
   *zoom: 1;
 }
@@ -1546,28 +1554,28 @@ select {
   display: table;
   clear: both;
 }
-/* line 708, ../sass/style.scss */
+/* line 719, ../sass/style.scss */
 .form-group .left,
 .form-group .right {
   width: 50%;
   float: left;
 }
-/* line 714, ../sass/style.scss */
+/* line 725, ../sass/style.scss */
 .form-group .left {
   padding-right: 20px;
 }
-/* line 718, ../sass/style.scss */
+/* line 729, ../sass/style.scss */
 .form-group .right {
   padding-left: 20px;
 }
 
-/* line 724, ../sass/style.scss */
+/* line 735, ../sass/style.scss */
 .actions {
   text-align: center;
   margin-top: 20px;
 }
 
-/* line 729, ../sass/style.scss */
+/* line 740, ../sass/style.scss */
 input[type='submit'] {
   font-family: "Open Sans", sans-serif;
   background: none;
@@ -1579,13 +1587,13 @@ input[type='submit'] {
   background-color: #495259;
   padding: 10px 30px;
 }
-/* line 741, ../sass/style.scss */
+/* line 752, ../sass/style.scss */
 input[type='submit']:hover {
   background-color: #fff;
   color: #495259;
 }
 
-/* line 748, ../sass/style.scss */
+/* line 759, ../sass/style.scss */
 .text-center {
   text-align: center !important;
 }

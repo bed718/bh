@@ -501,7 +501,7 @@ body.about{
       vertical-align: middle;
       min-height: 100vh;
       position: relative;
-      padding:  80px;
+      padding: 160px 80px 80px;
     }
 
     @include bp(l){
@@ -565,6 +565,10 @@ body.about{
   text-transform: uppercase;
   text-align: center;
 
+  a{
+    @extend %a_lt;
+  }
+
   .arrow-down{
     transform: rotate(90deg) ;
     -webkit-transform: rotate(90deg) ;
@@ -605,8 +609,6 @@ body.about{
 
 #slides #slide-1{
   @include bg_full('../images/BH-corduroy-jacket.jpg');
-
-  
     display: table;
     height: 100vh;
 
@@ -641,8 +643,17 @@ body.about{
 #slide-4{
   @include bg_full('../images/BH-Bringhub-Demo-Devices.jpg');
 
+  display: table;
+  height: 100vh;
+
   .inner{
-    vertical-align: bottom !important;
+   text-align: center;
+    padding: 0 80px;
+    display: table-cell;
+
+    img{
+       max-width: 1000px;
+    }
   }
 }
 
