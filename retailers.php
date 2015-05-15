@@ -8,13 +8,32 @@
 
 				<div id="comic" class="section">
 					<div class="">
-						<div id="cell-1" class="cell"></div>
-						<div id="cell-2" class="cell"></div>
-						<div id="cell-3" class="cell"></div>
-						<div id="cell-4" class="cell"></div>
+						<div id="cell-1" class="cell">
+							<img src="/images/info/bringhub-info-1.svg" alt="See it" />
+							<span class="caption">
+								1) See it.
+							</span>
+						</div>
+						<div id="cell-2" class="cell">
+							<img src="/images/info/bringhub-info-2.svg" alt="Love it" />
+							<span class="caption">
+								2) Love it.
+							</span>
+						</div>
+						<div id="cell-3" class="cell">
+							<img src="/images/info/bringhub-info-3.svg" alt="Buy it" />
+							<span class="caption">
+								3) Buy it.
+							</span>
+						</div>
+						<div id="cell-4" class="cell">
+							<img src="/images/info/bringhub-info-4.svg" alt="Repeat" />
+							<span class="caption">
+								4) We bring it!
+							</span>
+						</div>
 					</div>
 				</div>
-					
 				<div class="section bg-dk">
 					<div class="inner">
 						<h1>So what is Bringhub?</h1>
