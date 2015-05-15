@@ -4,9 +4,9 @@
 		<div class="section">
 			<h3>follow</h3>
 			<div class="social-icons">
-				<a href="http://twitter.com/" class="icon-twitter"></a>
-				<a href="http://facebook.com/" class="icon-facebook"></a>
-				<a href="http://instagram.com/" class="icon-instagram"></a>
+				<a href="http://twitter.com/bringhub" class="icon-twitter"></a>
+				<a href="http://facebook.com/bringhub" class="icon-facebook"></a>
+				<a href="http://instagram.com/bringhub" class="icon-instagram"></a>
 			</div>
 		</div>
 		<div class="section">
