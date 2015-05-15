@@ -8,10 +8,30 @@
 
 				<div id="comic" class="section">
 					<div class="">
-						<div id="cell-1" class="cell"></div>
-						<div id="cell-2" class="cell"></div>
-						<div id="cell-3" class="cell"></div>
-						<div id="cell-4" class="cell"></div>
+						<div id="cell-1" class="cell">
+							<img src="/images/info/bringhub-info-1.svg" alt="See it" />
+							<span class="caption">
+								1) See it.
+							</span>
+						</div>
+						<div id="cell-2" class="cell">
+							<img src="/images/info/bringhub-info-2.svg" alt="Love it" />
+							<span class="caption">
+								2) Love it.
+							</span>
+						</div>
+						<div id="cell-3" class="cell">
+							<img src="/images/info/bringhub-info-3.svg" alt="Buy it" />
+							<span class="caption">
+								3) Buy it.
+							</span>
+						</div>
+						<div id="cell-4" class="cell">
+							<img src="/images/info/bringhub-info-4.svg" alt="Repeat" />
+							<span class="caption">
+								4) We bring it!
+							</span>
+						</div>
 					</div>
 				</div>
 
@@ -55,7 +75,9 @@
 				</div>
 
 				<div id="pub-divider-1" class="image-divider">
-					<div class="inner"></div>
+					<div class="inner">
+						<p>Bring me the future.</p>
+					</div>
 				</div>
 
 				<div class="section">
@@ -120,7 +142,9 @@
 				</div>
 
 				<div id="pub-divider-2" class="image-divider">
-					<div class="inner"></div>
+					<div class="inner">
+						<p>Bring me that look.</p>
+					</div>
 				</div>
 				
 				<div class="section">
@@ -128,7 +152,7 @@
 						<div class="icons header">
 							<span class="bh-icon-line-chart"></span>
 						</div>
-						<h1>Do I have access to any metrics of any kind?</h1>
+						<h1>Do I have access to metrics of any kind?</h1>
 						<h3>Of course! Data is king!</h3>
 						<p>In the Bringhub publisher dashboard, you'll have access to robust analytics. See what content is converting, how many sales you're making, and which items your audience is buying.</p>
 					</div>
@@ -171,7 +195,7 @@
 				
 				<div class="section bg-med">
 					<div class="inner">
-						<h1>Ready to hear more?</h1>
+						<h1>Ready?</h1>
 						<div class="icons footer">
 							<div class="bh-icon-triangle-down"></div>
 						</div>

@@ -89,7 +89,7 @@
 
 				<div class="section bg-dk">
 					<div class="inner">
-						<h1>End of fake blog.</h1>
+						<h1>End of sample blog.</h1>
 						<p class="text-center">Pretty cool, right?  </p>
 						
 					</div>

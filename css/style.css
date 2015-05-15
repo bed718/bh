@@ -752,7 +752,7 @@ body.nav-open #nav {
   font-size: 1.2em;
 }
 /* line 321, ../sass/style.scss */
-#content .section h1, #content .section h3, #content .section p {
+#content .section h3, #content .section p {
   margin-top: 40px;
 }
 @media (max-width: 700px) {
@@ -765,7 +765,7 @@ body.nav-open #nav {
     padding: 80px 20px;
   }
   /* line 336, ../sass/style.scss */
-  #content .section h1, #content .section h3, #content .section p {
+  #content .section h3, #content .section p {
     margin-top: 20px;
   }
   /* line 340, ../sass/style.scss */
@@ -821,48 +821,59 @@ body.nav-open #nav {
   display: table;
   clear: both;
 }
-
-/* line 383, ../sass/style.scss */
-.cell {
+/* line 382, ../sass/style.scss */
+#comic .cell {
   width: 25%;
-  height: 500px;
   float: left;
+  position: relative;
 }
-
-/* line 389, ../sass/style.scss */
-#cell-1 {
-  background-color: #6da5cb;
-}
-
-/* line 393, ../sass/style.scss */
-#cell-2 {
-  background-color: #5a9ac5;
-}
-
-/* line 397, ../sass/style.scss */
-#cell-3 {
-  background-color: #488ebe;
-}
-
-/* line 401, ../sass/style.scss */
-#cell-4 {
-  background-color: #3e81ae;
+/* line 388, ../sass/style.scss */
+#comic .caption {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  left: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 800;
+  font-size: 2em;
 }
 
 /* Publisher
 -------------------------------------------------------------- */
 /* line 408, ../sass/style.scss */
+.image-divider {
+  display: table;
+  width: 100%;
+}
+/* line 412, ../sass/style.scss */
+.image-divider .inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+}
+/* line 418, ../sass/style.scss */
+.image-divider .inner p {
+  font-weight: 800;
+  color: #fff;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+/* line 427, ../sass/style.scss */
 #pub-divider-1 {
-  background: url("../images/BH-demo.jpg") no-repeat center center fixed;
+  background: url("../images/BH-station.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 @media (max-width: 700px) {
-  /* line 408, ../sass/style.scss */
+  /* line 427, ../sass/style.scss */
   #pub-divider-1 {
-    background: url("../images/BH-demo.jpg") no-repeat center center;
+    background: url("../images/BH-station.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -870,7 +881,7 @@ body.nav-open #nav {
   }
 }
 
-/* line 412, ../sass/style.scss */
+/* line 431, ../sass/style.scss */
 #pub-divider-2 {
   background: url("../images/BH-corduroy-jacket.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -879,7 +890,7 @@ body.nav-open #nav {
   background-size: cover;
 }
 @media (max-width: 700px) {
-  /* line 412, ../sass/style.scss */
+  /* line 431, ../sass/style.scss */
   #pub-divider-2 {
     background: url("../images/BH-corduroy-jacket.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -891,18 +902,18 @@ body.nav-open #nav {
 
 /* Retailer
 -------------------------------------------------------------- */
-/* line 419, ../sass/style.scss */
+/* line 438, ../sass/style.scss */
 #re-divider-1 {
-  background: url("../images/BH-camera-bracelet.jpg") no-repeat center center fixed;
+  background: url("../images/BH-station.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 @media (max-width: 700px) {
-  /* line 419, ../sass/style.scss */
+  /* line 438, ../sass/style.scss */
   #re-divider-1 {
-    background: url("../images/BH-camera-bracelet.jpg") no-repeat center center;
+    background: url("../images/BH-station.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -910,7 +921,7 @@ body.nav-open #nav {
   }
 }
 
-/* line 423, ../sass/style.scss */
+/* line 442, ../sass/style.scss */
 #re-divider-2 {
   background: url("../images/BH-corduroy-jacket.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -919,7 +930,7 @@ body.nav-open #nav {
   background-size: cover;
 }
 @media (max-width: 700px) {
-  /* line 423, ../sass/style.scss */
+  /* line 442, ../sass/style.scss */
   #re-divider-2 {
     background: url("../images/BH-corduroy-jacket.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -931,7 +942,7 @@ body.nav-open #nav {
 
 /* About
 -------------------------------------------------------------- */
-/* line 432, ../sass/style.scss */
+/* line 451, ../sass/style.scss */
 body.about .header-image {
   background: url(../images/BH-about-header.jpg) no-repeat left center fixed;
   -webkit-background-size: cover;
@@ -940,7 +951,7 @@ body.about .header-image {
   background-size: cover;
 }
 
-/* line 441, ../sass/style.scss */
+/* line 460, ../sass/style.scss */
 .members,
 .investors {
   *zoom: 1;
@@ -954,14 +965,14 @@ body.about .header-image {
   clear: both;
 }
 
-/* line 447, ../sass/style.scss */
+/* line 466, ../sass/style.scss */
 .member,
 .investor {
   max-width: 33.3%;
   padding: 20px;
   float: left;
 }
-/* line 453, ../sass/style.scss */
+/* line 472, ../sass/style.scss */
 .member .image,
 .investor .image {
   -moz-border-radius: 200px;
@@ -970,19 +981,19 @@ body.about .header-image {
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 458, ../sass/style.scss */
+/* line 477, ../sass/style.scss */
 .member .image img,
 .investor .image img {
   width: 100%;
   height: auto;
 }
-/* line 464, ../sass/style.scss */
+/* line 483, ../sass/style.scss */
 .member h2,
 .investor h2 {
   font-size: 1.5em;
   text-align: center;
 }
-/* line 469, ../sass/style.scss */
+/* line 488, ../sass/style.scss */
 .member h3,
 .investor h3 {
   font-size: 1em;
@@ -991,7 +1002,7 @@ body.about .header-image {
   margin-top: 0 !important;
 }
 @media (max-width: 700px) {
-  /* line 447, ../sass/style.scss */
+  /* line 466, ../sass/style.scss */
   .member,
   .investor {
     max-width: 100%;
@@ -1000,19 +1011,19 @@ body.about .header-image {
     padding: 0;
     margin-bottom: 40px;
   }
-  /* line 483, ../sass/style.scss */
+  /* line 502, ../sass/style.scss */
   .member p,
   .investor p {
     margin-top: 10px !important;
   }
 }
 
-/* line 490, ../sass/style.scss */
+/* line 509, ../sass/style.scss */
 .investor {
   max-width: 25%;
 }
 @media (max-width: 700px) {
-  /* line 490, ../sass/style.scss */
+  /* line 509, ../sass/style.scss */
   .investor {
     max-width: 100%;
   }
@@ -1020,36 +1031,36 @@ body.about .header-image {
 
 /* FOOTER
 -------------------------------------------------------------- */
-/* line 501, ../sass/style.scss */
+/* line 520, ../sass/style.scss */
 #footer {
   color: #fff;
   text-align: center;
   background-color: #495259;
 }
-/* line 507, ../sass/style.scss */
+/* line 526, ../sass/style.scss */
 #footer h3 {
   color: #fff;
   text-align: left;
 }
 @media (max-width: 1080px) {
-  /* line 507, ../sass/style.scss */
+  /* line 526, ../sass/style.scss */
   #footer h3 {
     text-align: center;
   }
 }
-/* line 516, ../sass/style.scss */
+/* line 535, ../sass/style.scss */
 #footer a {
   font-weight: 400;
 }
-/* line 521, ../sass/style.scss */
+/* line 540, ../sass/style.scss */
 #footer li {
   margin-top: 10px;
 }
-/* line 525, ../sass/style.scss */
+/* line 544, ../sass/style.scss */
 #footer .label {
   color: #fff;
 }
-/* line 530, ../sass/style.scss */
+/* line 549, ../sass/style.scss */
 #footer .inner {
   padding: 80px 20px;
   *zoom: 1;
@@ -1063,18 +1074,18 @@ body.about .header-image {
   display: table;
   clear: both;
 }
-/* line 541, ../sass/style.scss */
+/* line 560, ../sass/style.scss */
 #footer .social-icons {
   font-size: 4em;
 }
-/* line 545, ../sass/style.scss */
+/* line 564, ../sass/style.scss */
 #footer .section {
   width: 33.3%;
   float: left;
   text-align: left;
 }
 @media (max-width: 1080px) {
-  /* line 545, ../sass/style.scss */
+  /* line 564, ../sass/style.scss */
   #footer .section {
     width: 100%;
     float: none;
@@ -1082,22 +1093,22 @@ body.about .header-image {
     margin-bottom: 40px;
   }
 }
-/* line 561, ../sass/style.scss */
+/* line 580, ../sass/style.scss */
 #footer .section.logo {
   width: 10%;
   display: none;
   margin-bottom: 40px;
 }
-/* line 566, ../sass/style.scss */
+/* line 585, ../sass/style.scss */
 #footer .section.logo img {
   width: 100px;
 }
-/* line 572, ../sass/style.scss */
+/* line 591, ../sass/style.scss */
 #footer .section + .section {
   margin-top: 20px;
 }
 
-/* line 577, ../sass/style.scss */
+/* line 596, ../sass/style.scss */
 #copy {
   text-transform: uppercase;
   padding: 20px;
@@ -1110,18 +1121,18 @@ body.about .header-image {
 
 /* INTRO
 -------------------------------------------------------------- */
-/* line 590, ../sass/style.scss */
+/* line 609, ../sass/style.scss */
 #slides {
   position: relative;
   background-color: #495259;
 }
 
-/* line 596, ../sass/style.scss */
+/* line 615, ../sass/style.scss */
 .slide {
   position: relative;
   width: 100%;
 }
-/* line 602, ../sass/style.scss */
+/* line 621, ../sass/style.scss */
 .slide .inner {
   display: block;
   vertical-align: middle;
@@ -1129,12 +1140,12 @@ body.about .header-image {
   position: relative;
   padding: 160px 80px 80px;
 }
-/* line 613, ../sass/style.scss */
+/* line 632, ../sass/style.scss */
 .slide.short .inner {
   padding: 0;
   position: relative;
 }
-/* line 619, ../sass/style.scss */
+/* line 638, ../sass/style.scss */
 .slide.short p {
   color: #fff !important;
   background-color: #495259;
@@ -1144,17 +1155,17 @@ body.about .header-image {
   font-size: 3em;
 }
 @media (max-width: 700px) {
-  /* line 596, ../sass/style.scss */
+  /* line 615, ../sass/style.scss */
   .slide {
     display: block;
   }
-  /* line 648, ../sass/style.scss */
+  /* line 667, ../sass/style.scss */
   .slide .inner {
     display: block;
     padding: 100px 20px 20px;
   }
 }
-/* line 655, ../sass/style.scss */
+/* line 674, ../sass/style.scss */
 .slide p {
   color: #fff;
   font-size: 6em;
@@ -1162,27 +1173,27 @@ body.about .header-image {
   max-width: 1200px;
 }
 @media (max-width: 1200px) {
-  /* line 655, ../sass/style.scss */
+  /* line 674, ../sass/style.scss */
   .slide p {
     font-size: 5em;
     line-height: 80px;
   }
 }
 @media (max-width: 1080px) {
-  /* line 655, ../sass/style.scss */
+  /* line 674, ../sass/style.scss */
   .slide p {
     font-size: 4em;
     line-height: 60px;
   }
 }
 @media (max-width: 700px) {
-  /* line 655, ../sass/style.scss */
+  /* line 674, ../sass/style.scss */
   .slide p {
     font-size: 2em;
     line-height: 50px;
   }
 }
-/* line 679, ../sass/style.scss */
+/* line 698, ../sass/style.scss */
 .slide .more {
   position: absolute;
   bottom: 20px;
@@ -1190,7 +1201,7 @@ body.about .header-image {
   width: 100%;
 }
 
-/* line 687, ../sass/style.scss */
+/* line 706, ../sass/style.scss */
 .more {
   font-weight: 800;
   color: #fff;
@@ -1199,7 +1210,7 @@ body.about .header-image {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 700, ../sass/style.scss */
+/* line 719, ../sass/style.scss */
 .more .arrow-down {
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
@@ -1209,26 +1220,26 @@ body.about .header-image {
   display: block;
   margin-top: 30px;
 }
-/* line 709, ../sass/style.scss */
+/* line 728, ../sass/style.scss */
 .more .arrow-down span {
   font-weight: 400;
 }
 @media (max-width: 1200px) {
-  /* line 687, ../sass/style.scss */
+  /* line 706, ../sass/style.scss */
   .more {
     width: 100%;
     right: 0;
   }
 }
 @media (max-width: 700px) {
-  /* line 687, ../sass/style.scss */
+  /* line 706, ../sass/style.scss */
   .more {
     font-size: 2em;
     line-height: 30px;
   }
 }
 
-/* line 731, ../sass/style.scss */
+/* line 750, ../sass/style.scss */
 .click-here {
   max-width: 170px;
   position: relative;
@@ -1236,7 +1247,7 @@ body.about .header-image {
   left: 100px;
 }
 
-/* line 739, ../sass/style.scss */
+/* line 758, ../sass/style.scss */
 #slides #slide-1 {
   background: url("../images/BH-corduroy-jacket.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1247,7 +1258,7 @@ body.about .header-image {
   height: 100vh;
 }
 @media (max-width: 700px) {
-  /* line 739, ../sass/style.scss */
+  /* line 758, ../sass/style.scss */
   #slides #slide-1 {
     background: url("../images/BH-corduroy-jacket.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -1256,17 +1267,17 @@ body.about .header-image {
     background-size: cover;
   }
 }
-/* line 744, ../sass/style.scss */
+/* line 763, ../sass/style.scss */
 #slides #slide-1 .inner {
   padding: 0 80px;
   display: table-cell;
 }
 @media (max-width: 700px) {
-  /* line 739, ../sass/style.scss */
+  /* line 758, ../sass/style.scss */
   #slides #slide-1 {
     display: block;
   }
-  /* line 752, ../sass/style.scss */
+  /* line 771, ../sass/style.scss */
   #slides #slide-1 .inner {
     height: 100vh;
     display: block;
@@ -1274,7 +1285,7 @@ body.about .header-image {
   }
 }
 
-/* line 761, ../sass/style.scss */
+/* line 780, ../sass/style.scss */
 #slide-2 {
   background: url("../images/BH-camera-bracelet.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1283,7 +1294,7 @@ body.about .header-image {
   background-size: cover;
 }
 @media (max-width: 700px) {
-  /* line 761, ../sass/style.scss */
+  /* line 780, ../sass/style.scss */
   #slide-2 {
     background: url("../images/BH-camera-bracelet.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -1292,18 +1303,18 @@ body.about .header-image {
     background-size: cover;
   }
 }
-/* line 764, ../sass/style.scss */
+/* line 783, ../sass/style.scss */
 #slide-2 .inner {
   padding-bottom: 300px;
 }
 @media (max-width: 700px) {
-  /* line 764, ../sass/style.scss */
+  /* line 783, ../sass/style.scss */
   #slide-2 .inner {
     padding-bottom: 200px;
   }
 }
 
-/* line 773, ../sass/style.scss */
+/* line 792, ../sass/style.scss */
 #slide-3 {
   background: url("../images/intro/BH-show.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1312,7 +1323,7 @@ body.about .header-image {
   background-size: cover;
 }
 @media (max-width: 700px) {
-  /* line 773, ../sass/style.scss */
+  /* line 792, ../sass/style.scss */
   #slide-3 {
     background: url("../images/intro/BH-show.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -1321,18 +1332,18 @@ body.about .header-image {
     background-size: cover;
   }
 }
-/* line 776, ../sass/style.scss */
+/* line 795, ../sass/style.scss */
 #slide-3 .inner {
   padding-bottom: 300px;
 }
 @media (max-width: 700px) {
-  /* line 776, ../sass/style.scss */
+  /* line 795, ../sass/style.scss */
   #slide-3 .inner {
     padding-bottom: 200px;
   }
 }
 
-/* line 785, ../sass/style.scss */
+/* line 804, ../sass/style.scss */
 #slide-4 {
   background: url("../images/BH-imac.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1341,7 +1352,7 @@ body.about .header-image {
   background-size: cover;
 }
 @media (max-width: 700px) {
-  /* line 785, ../sass/style.scss */
+  /* line 804, ../sass/style.scss */
   #slide-4 {
     background: url("../images/BH-imac.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -1350,12 +1361,12 @@ body.about .header-image {
     background-size: cover;
   }
 }
-/* line 801, ../sass/style.scss */
+/* line 820, ../sass/style.scss */
 #slide-4 .inner {
   min-height: 80vh;
 }
 
-/* line 806, ../sass/style.scss */
+/* line 825, ../sass/style.scss */
 #slide-5 {
   background: url("../images/BH-ipad.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1364,7 +1375,7 @@ body.about .header-image {
   background-size: cover;
 }
 @media (max-width: 700px) {
-  /* line 806, ../sass/style.scss */
+  /* line 825, ../sass/style.scss */
   #slide-5 {
     background: url("../images/BH-ipad.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -1373,12 +1384,12 @@ body.about .header-image {
     background-size: cover;
   }
 }
-/* line 809, ../sass/style.scss */
+/* line 828, ../sass/style.scss */
 #slide-5 .inner {
   min-height: 80vh;
 }
 
-/* line 815, ../sass/style.scss */
+/* line 834, ../sass/style.scss */
 #slide-6 {
   background: url("../images/BH-iphone.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1387,7 +1398,7 @@ body.about .header-image {
   background-size: cover;
 }
 @media (max-width: 700px) {
-  /* line 815, ../sass/style.scss */
+  /* line 834, ../sass/style.scss */
   #slide-6 {
     background: url("../images/BH-iphone.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -1396,48 +1407,48 @@ body.about .header-image {
     background-size: cover;
   }
 }
-/* line 818, ../sass/style.scss */
+/* line 837, ../sass/style.scss */
 #slide-6 .inner {
   min-height: 80vh;
 }
 
-/* line 828, ../sass/style.scss */
+/* line 847, ../sass/style.scss */
 .arrows {
   color: #fff;
 }
-/* line 832, ../sass/style.scss */
+/* line 851, ../sass/style.scss */
 .arrows span {
   font-weight: 400;
 }
 
 /* FORMS
 -------------------------------------------------------------- */
-/* line 840, ../sass/style.scss */
+/* line 859, ../sass/style.scss */
 form {
   max-width: 600px;
   margin: auto;
   margin-top: 80px;
 }
 @media (max-width: 700px) {
-  /* line 840, ../sass/style.scss */
+  /* line 859, ../sass/style.scss */
   form {
     margin-top: 20px;
   }
 }
 
-/* line 850, ../sass/style.scss */
+/* line 869, ../sass/style.scss */
 label {
   font-size: 1.5em;
   display: block;
 }
 @media (max-width: 700px) {
-  /* line 850, ../sass/style.scss */
+  /* line 869, ../sass/style.scss */
   label {
     font-size: 1em;
   }
 }
 
-/* line 861, ../sass/style.scss */
+/* line 880, ../sass/style.scss */
 input[type='text'],
 input[type='url'],
 input[type='email'],
@@ -1451,19 +1462,19 @@ textarea {
   background-color: #dfeffa;
 }
 
-/* line 875, ../sass/style.scss */
+/* line 894, ../sass/style.scss */
 select {
   width: 50%;
   font-family: "Open Sans", sans-serif;
   color: #495259;
 }
 
-/* line 882, ../sass/style.scss */
+/* line 901, ../sass/style.scss */
 .form-item {
   margin-bottom: 20px;
 }
 
-/* line 886, ../sass/style.scss */
+/* line 905, ../sass/style.scss */
 .form-group {
   *zoom: 1;
 }
@@ -1473,22 +1484,22 @@ select {
   display: table;
   clear: both;
 }
-/* line 889, ../sass/style.scss */
+/* line 908, ../sass/style.scss */
 .form-group .left,
 .form-group .right {
   width: 50%;
   float: left;
 }
-/* line 895, ../sass/style.scss */
+/* line 914, ../sass/style.scss */
 .form-group .left {
   padding-right: 20px;
 }
-/* line 899, ../sass/style.scss */
+/* line 918, ../sass/style.scss */
 .form-group .right {
   padding-left: 20px;
 }
 @media (max-width: 700px) {
-  /* line 904, ../sass/style.scss */
+  /* line 923, ../sass/style.scss */
   .form-group .left,
   .form-group .right {
     float: none;
@@ -1497,13 +1508,13 @@ select {
   }
 }
 
-/* line 914, ../sass/style.scss */
+/* line 933, ../sass/style.scss */
 .actions {
   text-align: center;
   margin-top: 20px;
 }
 
-/* line 919, ../sass/style.scss */
+/* line 938, ../sass/style.scss */
 input[type='submit'] {
   font-family: "Open Sans", sans-serif;
   background: none;
@@ -1515,20 +1526,20 @@ input[type='submit'] {
   background-color: #495259;
   padding: 10px 30px;
 }
-/* line 931, ../sass/style.scss */
+/* line 950, ../sass/style.scss */
 input[type='submit']:hover {
   background-color: #fff;
   color: #495259;
 }
 
-/* line 938, ../sass/style.scss */
+/* line 957, ../sass/style.scss */
 .text-center {
   text-align: center !important;
 }
 
 /* FAKE ARTICLE
 -------------------------------------------------------------- */
-/* line 945, ../sass/style.scss */
+/* line 964, ../sass/style.scss */
 #fake-holder {
   padding: 0;
   font-family: "Georgia", sans-serif;
@@ -1536,7 +1547,7 @@ input[type='submit']:hover {
   margin-bottom: 60px;
 }
 
-/* line 953, ../sass/style.scss */
+/* line 972, ../sass/style.scss */
 #fake-article {
   *zoom: 1;
 }
@@ -1546,33 +1557,33 @@ input[type='submit']:hover {
   display: table;
   clear: both;
 }
-/* line 956, ../sass/style.scss */
+/* line 975, ../sass/style.scss */
 #fake-article .content {
   max-width: 1000px;
   margin: auto;
 }
-/* line 961, ../sass/style.scss */
+/* line 980, ../sass/style.scss */
 #fake-article .header {
   background-color: #eee;
   padding: 60px 0;
 }
-/* line 966, ../sass/style.scss */
+/* line 985, ../sass/style.scss */
 #fake-article .logo {
   max-width: 600px;
   margin: 0 auto;
 }
-/* line 976, ../sass/style.scss */
+/* line 995, ../sass/style.scss */
 #fake-article .nav {
   padding: 10px 0;
   margin-bottom: 40px;
   background-color: #333;
 }
-/* line 981, ../sass/style.scss */
+/* line 1000, ../sass/style.scss */
 #fake-article .nav .inner {
   max-width: 1000px;
   margin: auto;
 }
-/* line 986, ../sass/style.scss */
+/* line 1005, ../sass/style.scss */
 #fake-article .nav li {
   display: inline-block;
   vertical-align: middle;
@@ -1581,7 +1592,7 @@ input[type='submit']:hover {
   *display: inline;
   margin-right: 20px;
 }
-/* line 991, ../sass/style.scss */
+/* line 1010, ../sass/style.scss */
 #fake-article .nav a {
   color: #f5f5f5;
   text-transform: uppercase;
@@ -1589,7 +1600,7 @@ input[type='submit']:hover {
   letter-spacing: 2px;
   font-family: "Bebas", serif;
 }
-/* line 999, ../sass/style.scss */
+/* line 1018, ../sass/style.scss */
 #fake-article .nav .icon-search {
   float: right;
   color: #f5f5f5;
@@ -1597,14 +1608,14 @@ input[type='submit']:hover {
   font-size: 24px;
   padding-right: 10px;
 }
-/* line 1008, ../sass/style.scss */
+/* line 1027, ../sass/style.scss */
 #fake-article .meta {
   padding: 0;
   font-size: 18px;
   color: #999;
   font-family: "Bebas", serif;
 }
-/* line 1015, ../sass/style.scss */
+/* line 1034, ../sass/style.scss */
 #fake-article h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
@@ -1614,7 +1625,7 @@ input[type='submit']:hover {
   margin: 0;
   letter-spacing: 1px;
 }
-/* line 1025, ../sass/style.scss */
+/* line 1044, ../sass/style.scss */
 #fake-article h2 {
   font-family: "LatoLight", sans-serif;
   text-transform: none;
@@ -1622,77 +1633,77 @@ input[type='submit']:hover {
   font-weight: 400;
   margin-bottom: 40px;
 }
-/* line 1033, ../sass/style.scss */
+/* line 1052, ../sass/style.scss */
 #fake-article p {
   margin-bottom: 20px;
 }
-/* line 1038, ../sass/style.scss */
+/* line 1057, ../sass/style.scss */
 #fake-article .main {
   width: 85%;
   float: left;
   padding-left: 20px;
   padding-bottom: 20px;
 }
-/* line 1045, ../sass/style.scss */
+/* line 1064, ../sass/style.scss */
 #fake-article .body {
   max-width: 600px;
   border-bottom: #DA322A 5px solid;
 }
-/* line 1050, ../sass/style.scss */
+/* line 1069, ../sass/style.scss */
 #fake-article .side {
   width: 15%;
   float: left;
 }
-/* line 1057, ../sass/style.scss */
+/* line 1076, ../sass/style.scss */
 #fake-article .fake-social div {
   padding: 10px;
   margin-bottom: 10px;
   color: #fff;
 }
-/* line 1062, ../sass/style.scss */
+/* line 1081, ../sass/style.scss */
 #fake-article .fake-social div span {
   font-family: "Bebas", serif;
   margin-left: 10px;
   font-size: 1.2em;
 }
-/* line 1069, ../sass/style.scss */
+/* line 1088, ../sass/style.scss */
 #fake-article .fake-social .icon-facebook {
   background-color: #3b5998;
 }
-/* line 1073, ../sass/style.scss */
+/* line 1092, ../sass/style.scss */
 #fake-article .fake-social .icon-twitter {
   background-color: #00aced;
 }
-/* line 1077, ../sass/style.scss */
+/* line 1096, ../sass/style.scss */
 #fake-article .fake-social .icon-pinterest {
   background-color: #c92228;
 }
-/* line 1083, ../sass/style.scss */
+/* line 1102, ../sass/style.scss */
 #fake-article .image {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 1088, ../sass/style.scss */
+/* line 1107, ../sass/style.scss */
 #fake-article .shares {
   text-align: center;
   font-family: "Bebas", serif;
   font-size: 1em;
   margin: 20px 0;
 }
-/* line 1094, ../sass/style.scss */
+/* line 1113, ../sass/style.scss */
 #fake-article .shares span {
   font-size: 4em;
   display: block;
   line-height: 50px;
 }
-/* line 1102, ../sass/style.scss */
+/* line 1121, ../sass/style.scss */
 #fake-article .shop {
-  right: 20px;
-  bottom: 20px;
+  top: 20px;
+  left: 20px;
   position: absolute;
   text-align: center;
 }
-/* line 1108, ../sass/style.scss */
+/* line 1127, ../sass/style.scss */
 #fake-article .shop a {
   display: inline-block;
   vertical-align: middle;

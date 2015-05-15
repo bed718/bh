@@ -318,7 +318,7 @@ body.nav-open{
       font-size: 1.2em;
     }
 
-    h1, h3, p{
+    h3, p{
       margin-top: 40px; 
     }
 
@@ -333,7 +333,7 @@ body.nav-open{
         padding: 80px 20px;
       }
 
-      h1, h3, p{
+       h3, p{
         margin-top: 20px; 
       }
       
@@ -378,35 +378,54 @@ body.nav-open{
 -------------------------------------------------------------- */
 #comic{
   @include pie-clearfix;
+
+  .cell{
+    width: 25%;
+    float: left;
+    position: relative;
+  }
+
+  .caption{
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    left: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+    font-size: 2em;
+
+  }
 }
 
-.cell{
-  width: 25%;
-  height: 500px;
-  float: left;
-}
 
-#cell-1{
-  background-color: darken($color_accent, 5%);
-}
 
-#cell-2{
-  background-color: darken($color_accent, 10%);
-}
-
-#cell-3{
-  background-color: darken($color_accent, 15%);
-}
-
-#cell-4{
-  background-color: darken($color_accent, 20%);
-}
 
 
 /* Publisher
 -------------------------------------------------------------- */
+.image-divider{
+  display: table;
+  width: 100%;
+
+  .inner{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+
+    p{
+      font-weight: 800;
+      color: #fff;
+      font-size: 4em;
+      text-transform: uppercase;
+    }
+  }
+}
+
 #pub-divider-1{
-  @include bg_full('../images/BH-demo.jpg');
+  @include bg_full('../images/BH-station.jpg');
 }
 
 #pub-divider-2{
@@ -417,7 +436,7 @@ body.nav-open{
 /* Retailer
 -------------------------------------------------------------- */
 #re-divider-1{
-  @include bg_full('../images/BH-camera-bracelet.jpg');
+  @include bg_full('../images/BH-station.jpg');
 }
 
 #re-divider-2{
@@ -1100,8 +1119,8 @@ input[type='submit']{
   }
 
   .shop{
-    right: 20px;
-    bottom: 20px;
+    top: 20px;
+    left: 20px;
     position: absolute;
     text-align: center;
 
