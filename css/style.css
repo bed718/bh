@@ -1214,7 +1214,7 @@ body.about .header-image {
   padding: 0;
   position: relative;
 }
-/* line 702, ../sass/style.scss */
+/* line 701, ../sass/style.scss */
 .slide.short p {
   color: #fff !important;
   background-color: #495259;
@@ -1222,6 +1222,7 @@ body.about .header-image {
   width: 100%;
   max-width: 100%;
   font-size: 3em;
+  padding: 40px 20px;
 }
 @media (max-width: 700px) {
   /* line 679, ../sass/style.scss */
@@ -1432,7 +1433,7 @@ body.about .header-image {
 }
 /* line 884, ../sass/style.scss */
 #slide-4 .inner {
-  min-height: 80vh;
+  min-height: 90vh;
 }
 
 /* line 889, ../sass/style.scss */
@@ -1455,7 +1456,7 @@ body.about .header-image {
 }
 /* line 892, ../sass/style.scss */
 #slide-5 .inner {
-  min-height: 80vh;
+  min-height: 90vh;
 }
 
 /* line 898, ../sass/style.scss */
@@ -1478,7 +1479,7 @@ body.about .header-image {
 }
 /* line 901, ../sass/style.scss */
 #slide-6 .inner {
-  min-height: 80vh;
+  min-height: 90vh;
 }
 
 /* line 911, ../sass/style.scss */

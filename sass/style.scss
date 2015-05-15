@@ -696,7 +696,6 @@ body.about{
       .inner{
         padding: 0;
         position: relative;
-
       }
 
       p{
@@ -706,6 +705,7 @@ body.about{
         width: 100%;
         max-width: 100%;
         font-size: 3em;
+        padding: 40px 20px;
 
       }
       
@@ -882,7 +882,7 @@ body.about{
   // }
 
   .inner{
-    min-height: 80vh;
+    min-height:  90vh;
   }
 }
 
@@ -890,7 +890,7 @@ body.about{
   @include bg_full('../images/BH-ipad.jpg');
 
   .inner{
-    min-height: 80vh;
+    min-height: 90vh;
   }
 
 }
@@ -899,7 +899,7 @@ body.about{
   @include bg_full('../images/BH-iphone.jpg');
 
   .inner{
-    min-height: 80vh;
+    min-height: 90vh;
   }
 
 }
