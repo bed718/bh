@@ -12,8 +12,8 @@
 		<div class="section">
 			<h3>contact</h3>
 			<ul>
-				<li><span class="label">general:</span> <a href="">hello@bringhub.com</a></li>
-				<li><span class="label">press:</span> <a href="">press@bringhub.com</a></li>
+				<li><span class="label">general:</span> <a href="mailto:hello@bringhub.com">hello@bringhub.com</a></li>
+				<li><span class="label">press:</span> <a href="mailto:press@bringhub.com">press@bringhub.com</a></li>
 			</ul>
 		</div>
 

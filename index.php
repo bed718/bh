@@ -44,20 +44,20 @@
 
 					<div id="slide-4" class="slide short">
 						<div class="inner">
-							<p>Bringhub works on every device</p>
+							<p>Bringhub works on every device.</p>
 
 						</div>
 					</div>
 
 					<div id="slide-5" class="slide short">
 						<div class="inner">
-							<p>Shop your favorite stuff, anywhere!</p>		
+							<p>At home or on the go.</p>		
 						</div>
 					</div>
 
 					<div id="slide-6" class="slide short">
 						<div class="inner">
-							<p>Then say somehting else here.</p>
+							<p>Whenever it's needed.</p>
 							<div class="more">
 								<a href="#slide-5">
 								Give it<br />a try<br />
@@ -71,7 +71,7 @@
 				<div class="section bg-dk">
 					<div class="inner">
 						<h1>Below is a sample blog.</h1>
-						<p class="text-center">Click the <span class="highlight">"SHOP THIS LOOK"</span> button to see the power of Bringhub!</p>
+						<p class="text-center">Click the <span class="highlight">"SHOP THIS"</span> button to see the power of Bringhub!</p>
 						<div class="icons small">
 							<span class="bh-icon-triangle-down"></span>
 							<span class="bh-icon-triangle-down"></span>
@@ -89,8 +89,11 @@
 
 				<div class="section bg-dk">
 					<div class="inner">
-						<h1>End of sample blog.</h1>
-						<p class="text-center">Pretty cool, right?  </p>
+						<h1>Wanna learn more?</h1>
+						<div class="btns">
+							<a href="/retailers" class="btn big">I'm a retailer.</a>
+							<a href="/publisher" class="btn big">I'm a publisher.</a>
+						</div>
 						
 					</div>
 				</div>

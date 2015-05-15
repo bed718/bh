@@ -40,8 +40,8 @@
 				
 				<div class="image">
 					<img src="/images/BH-swag.jpg" alt="">
-					<div class="shop">
-						<a href="">Shop this look</a>
+					<div class="shop wiggle">
+						<a href="">Shop this</a>
 					</div>
 				</div>
 				<div class="body">

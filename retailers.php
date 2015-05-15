@@ -10,46 +10,36 @@
 					<div class="">
 						<div id="cell-1" class="cell">
 							<img src="/images/info/bringhub-info-1.svg" alt="See it" />
-							<span class="caption">
+							<div class="caption">
 								1) See it.
-							</span>
+							</div>
 						</div>
 						<div id="cell-2" class="cell">
 							<img src="/images/info/bringhub-info-2.svg" alt="Love it" />
-							<span class="caption">
+							<div class="caption">
 								2) Love it.
-							</span>
+							</div>
 						</div>
 						<div id="cell-3" class="cell">
 							<img src="/images/info/bringhub-info-3.svg" alt="Buy it" />
-							<span class="caption">
+							<div class="caption">
 								3) Buy it.
-							</span>
+							</div>
 						</div>
 						<div id="cell-4" class="cell">
 							<img src="/images/info/bringhub-info-4.svg" alt="Repeat" />
-							<span class="caption">
+							<div class="caption">
 								4) We bring it!
-							</span>
+							</div>
 						</div>
-					</div>
-				</div>
-				<div class="section bg-dk">
-					<div class="inner">
-						<h1>So what is Bringhub?</h1>
-						<h3>Great question.</h3>
-						<p class="text-center">And we've prepared an adorable little comic to address it.</p>
 					</div>
 				</div>
 
-				<div class="section">
+				<div class="section bg-dk">
 					<div class="inner">
-						<div class="icons header">
-							<span class="bh-icon-shopping-cart"></span>
-							<span class="bh-icon-arrow-bold-right"></span>
-							<span class="bh-icon-laptop"></span>
-						</div>
-						<h1>I'm still a little fuzzy.<br />Can you tell me more about what Bringhub is?</h1>
+						<h1>So, what <span>is</span> Bringhub?</h1>
+						<h3>Great question.</h3>
+
 						<p>Bringhub is a revolution that is changing the way people around the world shop.</p>
 						<p>It's changing the way retailers&mdash;like you&mdash;interact with target consumers. </p>
 						<p>It's changing the way publishers integrate partner products. </p>
@@ -62,10 +52,12 @@
 					</div>
 				</div>
 
-				<div class="section bg-med">
+				<div class="section ">
 					<div class="inner">
 						<div class="icons header">
-							<span class="bh-icon-cog"></span>
+							<span class="bh-icon-shopping-cart"></span>
+							<span class="bh-icon-arrow-bold-right"></span>
+							<span class="bh-icon-laptop"></span>
 						</div>
 						<h1>Well I do like the sound of an additional revenue stream with no new cost associated with it...but what's Bringhub from a functional standpoint?</h1>
 						<p>Great question. Bringhub allows your store's checkout to go directly into the web's best content. Now, consumers can purchase your products without even being in your store!</p>
@@ -81,7 +73,9 @@
 				</div>
 
 				<div id="re-divider-1" class="image-divider">
-					<div class="inner"></div>
+					<div class="inner">
+						<p>Bring me the future.</p>
+					</div>
 				</div>
 
 				<div class="section">
@@ -130,19 +124,22 @@
 							<span class="bh-icon-creative-commons-noncommercial-us"></span>
 						</div>
 						<h1>What does Bringhub cost?</h1>
-						<p>Working with Bringhub is <span class="highlight">absolutely free!</p>
-						<p>There are <span class="highlight">no fees or subscriptions</span>, and <span class="highlight">no exclusivity required.</span></p>
+						<p class="text-center">Working with Bringhub is <span class="highlight">absolutely free!</p>
+						<p class="text-center">There are <span class="highlight">no fees or subscriptions</span>, and <span class="highlight">no exclusivity required.</span></p>
 					</div>
 				</div>
-
-				<div id="re-divider-2" class="image-divider">
-					<div class="inner"></div>
-				</div>
+				
 
 				<div class="section bg-lt">
 					<div class="inner">
 						<h1>That can't be right. How do you guys make money then?</h1>
 						<p>Glad you asked! We only get paid on commission from sales, so Bringhub only earns when you earn. Furthermore, we give the lion's share of commissions to the publisher (the highest percentage in the industry), so publishers are very motivated to feature products from Bringhub retailers.</p>
+					</div>
+				</div>
+
+				<div id="re-divider-2" class="image-divider">
+					<div class="inner">
+						<p>Bring me that look.</p>
 					</div>
 				</div>
 
@@ -152,7 +149,7 @@
 							<span class="bh-icon-line-chart"></span>
 						</div>	
 
-						<h1>Do I have access to any metrics of any kind?</h1>
+						<h1>Do I have access to metrics of any kind?</h1>
 						<h3>Of course! Data is king!</h3>
 						<p>In the Bringhub retailer dashboard, you'll have access to <span class="highlight">robust analytics.</span> See what items are selling and which publishers are successfully converting. Valuable data and unique customer insight lets you intelligently tailor your sales strategy.</p>
 					</div>
@@ -160,7 +157,7 @@
 
 				<div class="section bg-med">
 					<div class="inner">
-						<h1>Ready to hear more?</h1>
+						<h1>Ready?</h1>
 						<div class="icons footer">
 							<div class="bh-icon-triangle-down"></div>
 						</div>

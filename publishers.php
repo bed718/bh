@@ -10,48 +10,39 @@
 					<div class="">
 						<div id="cell-1" class="cell">
 							<img src="/images/info/bringhub-info-1.svg" alt="See it" />
-							<span class="caption">
+							<div class="caption">
 								1) See it.
-							</span>
+							</div>
 						</div>
 						<div id="cell-2" class="cell">
 							<img src="/images/info/bringhub-info-2.svg" alt="Love it" />
-							<span class="caption">
+							<div class="caption">
 								2) Love it.
-							</span>
+							</div>
 						</div>
 						<div id="cell-3" class="cell">
 							<img src="/images/info/bringhub-info-3.svg" alt="Buy it" />
-							<span class="caption">
+							<div class="caption">
 								3) Buy it.
-							</span>
+							</div>
 						</div>
 						<div id="cell-4" class="cell">
 							<img src="/images/info/bringhub-info-4.svg" alt="Repeat" />
-							<span class="caption">
+							<div class="caption">
 								4) We bring it!
-							</span>
+							</div>
 						</div>
 					</div>
 				</div>
 
+
+		
 
 				<div class="section bg-dk">
 					<div class="inner">
-						<h1>So, what is Bringhub?</h1>
+						
+						<h1>So, what <span>is</span> Bringhub?</h1>
 						<h3>Great question.</h3>
-						<p class="text-center">And we've prepared an adorable little comic to address it.</p>
-					</div>
-				</div>
-
-				<div class="section">
-					<div class="inner">
-						<div class="icons header">
-							<span class="bh-icon-shopping-cart"></span>
-							<span class="bh-icon-arrow-bold-right"></span>
-							<span class="bh-icon-laptop"></span>
-						</div>
-						<h1>I'm still a little fuzzy.<br /> Can you tell me more about what Bringhub <span>is</span>?</h1>
 						<p>Bringhub is a revolution that is changing the way people around the world shop. It's changing the way publishers&mdash;like you&mdash;monetize content. </p>
 						<p>Your audience can buy multiple products from multiple retailers&mdash;right on your site&mdash;all through a <span class="highlight">single, secure</span> checkout.</p>
 						<p>Bringhub is changing the way retailers interact with publishers and their target consumers. It's collapsing the consumer buy flow funnel. It's giving both publishers and retailers an entirely new revenue stream without disturbing any existing infrastructures</p>
@@ -59,10 +50,12 @@
 					</div>
 				</div>
 
-				<div class="section bg-med">
+				<div class="section ">
 					<div class="inner">
 						<div class="icons header">
-							<span class="bh-icon-cog"></span>
+							<span class="bh-icon-shopping-cart"></span>
+							<span class="bh-icon-arrow-bold-right"></span>
+							<span class="bh-icon-laptop"></span>
 						</div>
 						<h1>What's Bringhub from a functional standpoint?</h1>
 						<h3>Another great question!</h3>
