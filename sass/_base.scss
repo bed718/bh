@@ -65,6 +65,7 @@ $default-box-shadow-blur: 3px;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-attachment:scroll;
 
   @include bp(s){
   	background: url($url) no-repeat $pos center; 
