@@ -1024,6 +1024,7 @@ textarea{
   font-family: $font_main;
   color: $color_main;
   background-color: #dfeffa;
+  -webkit-appearance: none;
 
 }
 
@@ -1083,6 +1084,7 @@ input[type='submit']{
   cursor: pointer;
   background-color: $color_main;
   padding: 10px 30px;
+  -webkit-appearance: none;
 
   &:hover{
     background-color: $color_lt;
