@@ -452,7 +452,7 @@ body.nav-open{
       color: $color_main;
     }
 
-    @include bp(s){
+    @include bp(m){
       display: block;
       font-size: 1.5em;
     }
