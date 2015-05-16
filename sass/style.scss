@@ -1311,6 +1311,16 @@ input[type='submit']{
       font-size: 20px;
     }
   }
+
+  @include bp(s){
+    top: 10px;
+    left: 10px;
+
+    a{
+      font-size: 16px;
+      padding: 5px 10px;
+    }
+  }
 }
 
 
