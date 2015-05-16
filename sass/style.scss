@@ -82,6 +82,17 @@ p .highlight{
   font-weight: 700;
 }
 
+ul.styled{
+  max-width: 600px;
+  margin: 40px auto;
+
+  li{
+    margin-left: 40px; 
+    margin-bottom: 20px; 
+    list-style: disc;
+  }
+}
+
 /* Icons
 -------------------------------------------------------------- */
 .icons.header,
@@ -571,6 +582,7 @@ body.about{
   @include inline-block;
   height: 160px;
   padding: 40px;
+  width: 300px;
 
   img{
     height: 100%;
@@ -778,6 +790,10 @@ body.about{
 
   a{
     @extend %a_lt;
+
+    &.accent{
+      @extend %a_med;
+    }
   }
 
   .arrow-down{

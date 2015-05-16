@@ -8,7 +8,7 @@
 				<div id="slides">
 					<div id="slide-1" class="slide">
 						<div class="inner">
-							<p>Bringhub is the eCommerce upgrade for the connected generation.</p>
+							<p>Multiple products from multiple stores all from a single checkout.</p>
 							<div class="more">
 								<a href="#slide-2">
 								Learn<br />More<br />
@@ -20,7 +20,7 @@
 
 					<div id="slide-2" class="slide">
 						<div class="inner">
-							<p>Now, the web's best stores are directly shoppable in the web's best content.</p>
+							<p>Apparel, consumer goods, tickets or travel &mdash; Over 226,000 products!</p>
 							<div class="more">
 								<a href="#slide-3">
 								Learn<br />Even<br />More<br />
@@ -32,7 +32,7 @@
 
 					<div id="slide-3" class="slide">
 						<div class="inner">
-							<p>Apparel, consumer goods, tickets or travel&mdash;multiple products from multiple retailers via single checkout.</p>
+							<p>Now, the web's best stores are directly shoppable in the web's best content.</p>
 							<div class="more">
 								<a href="#slide-4">
 								Take a<br />Look<br />
@@ -58,7 +58,7 @@
 					<div id="slide-6" class="slide short">
 						<div class="inner">
 							<p>Whenever it's needed.</p>
-							<div class="more">
+							<div class="more accent">
 								<a href="#slide-5">
 								Give it<br />a try<br />
 								<span class="bh-icon-triangle-down"></span>

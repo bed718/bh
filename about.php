@@ -136,6 +136,14 @@ leaving the site they were browsing. </p>
 							<div class="investor">
 								<img src="/images/investors/PreAngel.svg" alt="">
 							</div>
+
+							<div class="investor">
+								<img src="/images/investors/canyoncreek.svg" alt="">
+							</div>
+
+							<div class="investor">
+								<img src="/images/investors/KohFounders.svg" alt="">
+							</div>
 						</div>
 					</div>
 				</div>
