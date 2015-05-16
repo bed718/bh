@@ -381,6 +381,322 @@ a.service-links-google-plus:before {
   background-color: #517fa4;
 }
 
+@font-face {
+  font-family: 'bhicons';
+  src: url("../fonts/bhicons.eot?x4rhfq");
+  src: url("../fonts/bhicons.eot?#iefixx4rhfq") format("embedded-opentype"), url("../fonts/bhicons.woff?x4rhfq") format("woff"), url("../fonts/bhicons.ttf?x4rhfq") format("truetype"), url("../fonts/bhicons.svg?x4rhfq#bhicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 12, ../sass/_bh_icons.scss */
+[class^="bh-icon-"], [class*=" bh-icon-"] {
+  font-family: 'bhicons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 27, ../sass/_bh_icons.scss */
+.bh-icon-classic-computer:before {
+  content: "\e600";
+}
+
+/* line 31, ../sass/_bh_icons.scss */
+.bh-icon-creative-commons-attribution:before {
+  content: "\e601";
+}
+
+/* line 35, ../sass/_bh_icons.scss */
+.bh-icon-creative-commons-noderivs:before {
+  content: "\e602";
+}
+
+/* line 39, ../sass/_bh_icons.scss */
+.bh-icon-creative-commons-noncommercial-us:before {
+  content: "\e603";
+}
+
+/* line 43, ../sass/_bh_icons.scss */
+.bh-icon-warning:before {
+  content: "\e604";
+}
+
+/* line 47, ../sass/_bh_icons.scss */
+.bh-icon-arrow-bold-down:before {
+  content: "\e605";
+}
+
+/* line 51, ../sass/_bh_icons.scss */
+.bh-icon-arrow-bold-left:before {
+  content: "\e606";
+}
+
+/* line 55, ../sass/_bh_icons.scss */
+.bh-icon-arrow-bold-right:before {
+  content: "\e607";
+}
+
+/* line 59, ../sass/_bh_icons.scss */
+.bh-icon-arrow-bold-up:before {
+  content: "\e608";
+}
+
+/* line 63, ../sass/_bh_icons.scss */
+.bh-icon-arrow-with-circle-down:before {
+  content: "\e609";
+}
+
+/* line 67, ../sass/_bh_icons.scss */
+.bh-icon-cloud:before {
+  content: "\e60a";
+}
+
+/* line 71, ../sass/_bh_icons.scss */
+.bh-icon-dots-three-horizontal:before {
+  content: "\e60b";
+}
+
+/* line 75, ../sass/_bh_icons.scss */
+.bh-icon-download:before {
+  content: "\e60c";
+}
+
+/* line 79, ../sass/_bh_icons.scss */
+.bh-icon-emoji-flirt:before {
+  content: "\e60d";
+}
+
+/* line 83, ../sass/_bh_icons.scss */
+.bh-icon-trash:before {
+  content: "\e60e";
+}
+
+/* line 87, ../sass/_bh_icons.scss */
+.bh-icon-triangle-down:before {
+  content: "\e637";
+}
+
+/* line 91, ../sass/_bh_icons.scss */
+.bh-icon-triangle-left:before {
+  content: "\e638";
+}
+
+/* line 95, ../sass/_bh_icons.scss */
+.bh-icon-triangle-right:before {
+  content: "\e639";
+}
+
+/* line 99, ../sass/_bh_icons.scss */
+.bh-icon-triangle-up:before {
+  content: "\e63a";
+}
+
+/* line 103, ../sass/_bh_icons.scss */
+.bh-icon-address:before {
+  content: "\e60f";
+}
+
+/* line 107, ../sass/_bh_icons.scss */
+.bh-icon-battery:before {
+  content: "\e610";
+}
+
+/* line 111, ../sass/_bh_icons.scss */
+.bh-icon-block:before {
+  content: "\e611";
+}
+
+/* line 115, ../sass/_bh_icons.scss */
+.bh-icon-cake:before {
+  content: "\e612";
+}
+
+/* line 119, ../sass/_bh_icons.scss */
+.bh-icon-camera:before {
+  content: "\e613";
+}
+
+/* line 123, ../sass/_bh_icons.scss */
+.bh-icon-chat:before {
+  content: "\e614";
+}
+
+/* line 127, ../sass/_bh_icons.scss */
+.bh-icon-check:before {
+  content: "\e615";
+}
+
+/* line 131, ../sass/_bh_icons.scss */
+.bh-icon-clock:before {
+  content: "\e616";
+}
+
+/* line 135, ../sass/_bh_icons.scss */
+.bh-icon-code:before {
+  content: "\e617";
+}
+
+/* line 139, ../sass/_bh_icons.scss */
+.bh-icon-cog:before {
+  content: "\e618";
+}
+
+/* line 143, ../sass/_bh_icons.scss */
+.bh-icon-credit:before {
+  content: "\e619";
+}
+
+/* line 147, ../sass/_bh_icons.scss */
+.bh-icon-flash:before {
+  content: "\e61a";
+}
+
+/* line 151, ../sass/_bh_icons.scss */
+.bh-icon-heart:before {
+  content: "\e61b";
+}
+
+/* line 155, ../sass/_bh_icons.scss */
+.bh-icon-help:before {
+  content: "\e61c";
+}
+
+/* line 159, ../sass/_bh_icons.scss */
+.bh-icon-home:before {
+  content: "\e61d";
+}
+
+/* line 163, ../sass/_bh_icons.scss */
+.bh-icon-info-with-circle:before {
+  content: "\e61e";
+}
+
+/* line 167, ../sass/_bh_icons.scss */
+.bh-icon-key:before {
+  content: "\e61f";
+}
+
+/* line 171, ../sass/_bh_icons.scss */
+.bh-icon-lab-flask:before {
+  content: "\e620";
+}
+
+/* line 175, ../sass/_bh_icons.scss */
+.bh-icon-laptop:before {
+  content: "\e621";
+}
+
+/* line 179, ../sass/_bh_icons.scss */
+.bh-icon-lifebuoy:before {
+  content: "\e622";
+}
+
+/* line 183, ../sass/_bh_icons.scss */
+.bh-icon-light-bulb:before {
+  content: "\e623";
+}
+
+/* line 187, ../sass/_bh_icons.scss */
+.bh-icon-line-graph:before {
+  content: "\e624";
+}
+
+/* line 191, ../sass/_bh_icons.scss */
+.bh-icon-link:before {
+  content: "\e625";
+}
+
+/* line 195, ../sass/_bh_icons.scss */
+.bh-icon-lock:before {
+  content: "\e626";
+}
+
+/* line 199, ../sass/_bh_icons.scss */
+.bh-icon-man:before {
+  content: "\e627";
+}
+
+/* line 203, ../sass/_bh_icons.scss */
+.bh-icon-mask:before {
+  content: "\e628";
+}
+
+/* line 207, ../sass/_bh_icons.scss */
+.bh-icon-mobile:before {
+  content: "\e629";
+}
+
+/* line 211, ../sass/_bh_icons.scss */
+.bh-icon-pie-chart:before {
+  content: "\e62a";
+}
+
+/* line 215, ../sass/_bh_icons.scss */
+.bh-icon-price-tag:before {
+  content: "\e62b";
+}
+
+/* line 219, ../sass/_bh_icons.scss */
+.bh-icon-rocket:before {
+  content: "\e62c";
+}
+
+/* line 223, ../sass/_bh_icons.scss */
+.bh-icon-shop:before {
+  content: "\e62d";
+}
+
+/* line 227, ../sass/_bh_icons.scss */
+.bh-icon-shopping-cart:before {
+  content: "\e62e";
+}
+
+/* line 231, ../sass/_bh_icons.scss */
+.bh-icon-sound-mix:before {
+  content: "\e62f";
+}
+
+/* line 235, ../sass/_bh_icons.scss */
+.bh-icon-stopwatch:before {
+  content: "\e630";
+}
+
+/* line 239, ../sass/_bh_icons.scss */
+.bh-icon-tools:before {
+  content: "\e631";
+}
+
+/* line 243, ../sass/_bh_icons.scss */
+.bh-icon-tree:before {
+  content: "\e632";
+}
+
+/* line 247, ../sass/_bh_icons.scss */
+.bh-icon-user:before {
+  content: "\e633";
+}
+
+/* line 251, ../sass/_bh_icons.scss */
+.bh-icon-facebook:before {
+  content: "\e634";
+}
+
+/* line 255, ../sass/_bh_icons.scss */
+.bh-icon-instagram:before {
+  content: "\e635";
+}
+
+/* line 259, ../sass/_bh_icons.scss */
+.bh-icon-twitter:before {
+  content: "\e636";
+}
+
 /* VARS 
 -------------------------------------------------------------- */
 /*  COLORS  */
