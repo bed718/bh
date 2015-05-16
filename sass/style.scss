@@ -824,6 +824,10 @@ body.about{
       bottom: 20px;
       left: 0;
       width: 100%;
+
+      @include bp(s){
+        bottom: 40px;
+      }
     }
   }
 
