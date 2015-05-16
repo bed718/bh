@@ -9,7 +9,7 @@
 				<div class="section bg-accent">
 					<div class="inner">
 						<h1>Success!</h1>
-						<p class="text-center">Well done.</p>
+						<p class="text-center">Well done. We will contact you as soon as possible. </p>
 					</div>
 				</div>
 
