@@ -127,7 +127,7 @@ ul.styled{
   margin-top: 40px;
 
   @include bp(s){
-    font-size: 4em;
+    font-size: 2em;
     line-height: 30px;
     margin-top: 20px;
   }
@@ -256,7 +256,7 @@ ul.styled{
     margin: 0;
     padding-top: 10px;
     z-index: 1;
-    top: -300px;
+    top: -350px;
 
     li{
       display: block;
@@ -267,6 +267,10 @@ ul.styled{
     .cta-btn{
       margin-left: 0;
       margin-top: 10px;
+    }
+
+    .divider{
+      display: none;
     }
   }
 }
@@ -419,6 +423,10 @@ body.nav-open{
       color: #fff;
       font-size: 4em;
       text-transform: uppercase;
+
+      @include bp(s){
+        font-size: 2em;
+      }
     }
   }
 }
@@ -442,6 +450,11 @@ body.nav-open{
     &:hover{
       background-color: $color_lt;
       color: $color_main;
+    }
+
+    @include bp(s){
+      display: block;
+      font-size: 1.5em;
     }
 
   }
@@ -749,6 +762,11 @@ body.about{
         font-size: 3em;
         padding: 40px 20px;
 
+        @include bp(s){
+         font-size: 2em;
+          line-height: 30px; 
+        }
+
       }
       
     }
@@ -797,7 +815,7 @@ body.about{
 
       @include bp(s){
        font-size: 2em;
-        line-height: 50px; 
+        line-height: 30px; 
       }
     }
 
@@ -1090,6 +1108,10 @@ input[type='submit']{
   .header{
     background-color: #eee;
     padding: 60px 0;
+
+    @include bp(m){
+      padding: 30px 0;
+    }
   }
 
   .logo{
@@ -1149,6 +1171,10 @@ input[type='submit']{
     text-align: left;
     margin: 0;
     letter-spacing: 1px;  
+
+    @include bp(m){
+      font-size: 2em;
+    }
   }
 
   h2{
@@ -1157,6 +1183,18 @@ input[type='submit']{
     font-size: 1.5em;
     font-weight: 400;
     margin-bottom: 40px;
+
+    @include bp(m){
+      margin-bottom: 20px;
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+  }
+
+  .meta, h1, h2{
+    @include bp(m){
+      padding: 0 20px;
+    }
   }
 
   p{
@@ -1169,6 +1207,12 @@ input[type='submit']{
     float: left;
     padding-left: 20px;
     padding-bottom: 20px;
+
+    @include bp(m){
+      width: 100%;
+      float: none;
+      padding: 20px;
+    }
   }
 
   .body{
@@ -1179,6 +1223,12 @@ input[type='submit']{
   .side{
     width: 15%;
     float: left;
+
+    @include bp(m){
+      width: 100%;
+      float: none;
+      padding: 0 20px;
+    }
   }
 
   .fake-social{
@@ -1192,6 +1242,14 @@ input[type='submit']{
         font-family: $font_fancy_fake;
         margin-left: 10px;
         font-size: 1.2em;
+      }
+    }
+
+    @include bp(m){
+      div{
+        @include inline-block;
+        margin-bottom: 0;
+
       }
     }
 
@@ -1225,6 +1283,10 @@ input[type='submit']{
       display: block;
       line-height: 50px;
 
+    }
+
+    @include bp(m){
+      display: none;
     }
   }
 

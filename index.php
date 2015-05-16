@@ -42,22 +42,37 @@
 						</div>
 					</div>
 
-					<div id="slide-4" class="slide short">
+					<div class="section bg-dk">
 						<div class="inner">
-							<p>Bringhub works on every device.</p>
+							<h3>Bringhub works on every device.</h3>
+						</div>
+					</div>
 
+					<div id="slide-4" class="slide short">
+						<div class="inner"></div>
+					</div>
+
+					<div class="section bg-dk">
+						<div class="inner">
+							<h3>At home or on the go.</h3>	
 						</div>
 					</div>
 
 					<div id="slide-5" class="slide short">
 						<div class="inner">
-							<p>At home or on the go.</p>		
+								
+						</div>
+					</div>
+
+					<div class="section bg-dk">
+						<div class="inner">
+							<h3>Whenever it's needed.</h3>
 						</div>
 					</div>
 
 					<div id="slide-6" class="slide short">
 						<div class="inner">
-							<p>Whenever it's needed.</p>
+							
 							<div class="more">
 								<a href="#slide-5" class="accent">
 								Give it<br />a try<br />

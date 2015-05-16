@@ -6,7 +6,7 @@
 					<li><a href="/retailers" class="<?php if($page == 'retailers'){echo 'active'; } ?>">Retailers</a></li>
 					<li><a href="/publishers" class="<?php if($page == 'publishers'){echo 'active'; } ?>">Publishers</a></li>
 					<li><a href="/about" class="<?php if($page == 'about'){echo 'active'; } ?>">About</a></li>
-					<li>/</li>
+					<li class="divider">/</li>
 					<li><a href="#">Login</a></li>
 					<li><a href="#cta" class="cta-btn">Get Started Today!</a></li>
 
