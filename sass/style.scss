@@ -1069,6 +1069,7 @@ select{
 
 input[type='submit']{
   @extend %header_font;
+  @include border-radius(0);
   font-family: $font_main;
   background: none;
   border: none;
