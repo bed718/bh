@@ -5,7 +5,11 @@
 			<?php include 'includes/_header.php'; ?>
 			
 			<div id="content">
-				<div class="header-image"></div>
+				<div id="about-divider-1" class="image-divider top">
+					<div class="inner">
+						
+					</div>
+				</div>
 					
 				<div class="section">
 					<div class="inner">

@@ -555,6 +555,10 @@ body.nav-open{
   @include bg_full('../images/BH-quilted-jacket.jpg');
 }
 
+#about-divider-1{
+  @include bg_full('../images/BH-about-header.jpg', top);
+}
+
 
 /* About
 -------------------------------------------------------------- */
