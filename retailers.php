@@ -6,34 +6,7 @@
 			
 			<div id="content">
 
-				<div id="comic" class="section">
-					<div class="">
-						<div id="cell-1" class="cell">
-							<img src="/images/info/bringhub-info-1.svg" alt="See it" />
-							<div class="caption">
-								1) See it.
-							</div>
-						</div>
-						<div id="cell-2" class="cell">
-							<img src="/images/info/bringhub-info-2.svg" alt="Love it" />
-							<div class="caption">
-								2) Love it.
-							</div>
-						</div>
-						<div id="cell-3" class="cell">
-							<img src="/images/info/bringhub-info-3.svg" alt="Buy it" />
-							<div class="caption">
-								3) Buy it.
-							</div>
-						</div>
-						<div id="cell-4" class="cell">
-							<img src="/images/info/bringhub-info-4.svg" alt="Repeat" />
-							<div class="caption">
-								4) We bring it!
-							</div>
-						</div>
-					</div>
-				</div>
+				
 
 				<div id="re-divider-1" class="image-divider top">
 					<div class="inner">
@@ -80,7 +53,7 @@
 
 				
 
-				<div id="pub-divider-3" class="image-divider top">
+				<div id="pub-divider-3" class="image-divider">
 					<div class="inner">
 						<p>Bring me that adventure.</p>
 					</div>
