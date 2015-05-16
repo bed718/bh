@@ -202,6 +202,7 @@ ul.styled{
   position: relative;
   top: 0;
   right: 0;
+  color: $color_accent;
 
 
 	ul{}
@@ -232,6 +233,19 @@ ul.styled{
     background-color: $color_accent;
     padding: 0 40px;
     margin-left: 20px;
+  }
+
+  .signup-btns{
+    position: absolute;
+    right: 0;
+    top: 80px;
+    line-height: normal;
+
+    a{
+      background-color: $color_main;
+      line-height: normal;
+      @include inline-block;
+    }
   }
 
   @include bp(m){
@@ -386,6 +400,27 @@ body.nav-open{
   height: 60vh;
   border-top: $color_accent solid 20px;
   border-bottom: $color_accent solid 20px;
+
+  display: table;
+  width: 100%;
+
+  &.top{
+    border-top: none;
+  }
+
+  .inner{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+
+    p{
+      font-weight: 800;
+      color: #fff;
+      font-size: 4em;
+      text-transform: uppercase;
+    }
+  }
 }
 
 .btns{
@@ -416,6 +451,7 @@ body.nav-open{
 /* COMIC
 -------------------------------------------------------------- */
 #comic{
+  display: none;
   @include pie-clearfix;
 
   .cell{
@@ -474,27 +510,12 @@ body.nav-open{
 
 /* Publisher
 -------------------------------------------------------------- */
-.image-divider{
-  display: table;
-  width: 100%;
-
-  .inner{
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    width: 100%;
-
-    p{
-      font-weight: 800;
-      color: #fff;
-      font-size: 4em;
-      text-transform: uppercase;
-    }
-  }
+#pub-divider-1{
+  @include bg_full('../images/BH-station.jpg', top);
 }
 
-#pub-divider-1{
-  @include bg_full('../images/BH-station.jpg');
+#pub-divider-3{
+  @include bg_full('../images/BH-adventure-clouds.jpg');
 }
 
 #pub-divider-2{
@@ -505,11 +526,20 @@ body.nav-open{
 /* Retailer
 -------------------------------------------------------------- */
 #re-divider-1{
-  @include bg_full('../images/BH-station.jpg');
+  @include bg_full('../images/BH-station.jpg', top);
+}
+
+#pub-divider-3{
+  @include bg_full('../images/BH-adventure-clouds.jpg');
 }
 
 #re-divider-2{
   @include bg_full('../images/BH-corduroy-jacket.jpg');
+}
+
+
+#success-divider-1{
+  @include bg_full('../images/BH-quilted-jacket.jpg');
 }
 
 
@@ -792,7 +822,7 @@ body.about{
     @extend %a_lt;
 
     &.accent{
-      @extend %a_med;
+      @extend %a_dk;
     }
   }
 

@@ -20,7 +20,7 @@
 
 					<div id="slide-2" class="slide">
 						<div class="inner">
-							<p>Apparel, consumer goods, tickets or travel &mdash; Over 226,000 products!</p>
+							<p>Apparel, consumer goods, tickets or travel &mdash; Bringhub has over 226,000 products!</p>
 							<div class="more">
 								<a href="#slide-3">
 								Learn<br />Even<br />More<br />
@@ -58,8 +58,8 @@
 					<div id="slide-6" class="slide short">
 						<div class="inner">
 							<p>Whenever it's needed.</p>
-							<div class="more accent">
-								<a href="#slide-5">
+							<div class="more">
+								<a href="#slide-5" class="accent">
 								Give it<br />a try<br />
 								<span class="bh-icon-triangle-down"></span>
 								</a>
@@ -70,7 +70,7 @@
 				
 				<div class="section bg-dk">
 					<div class="inner">
-						<h1>Below is a sample blog.</h1>
+						<h1>Below is a sample site.</h1>
 						<p class="text-center">Click the <span class="highlight">"SHOP THIS"</span> button to see the power of Bringhub!</p>
 						<div class="icons small">
 							<span class="bh-icon-triangle-down"></span>

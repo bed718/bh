@@ -59,15 +59,15 @@ $default-box-shadow-blur: 3px;
   }
 }
 
-@mixin bg_full($url){
-	background: url($url) no-repeat center center fixed; 
+@mixin bg_full($url, $pos: center){
+	background: url($url) no-repeat $pos center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
   @include bp(s){
-  	background: url($url) no-repeat center center; 
+  	background: url($url) no-repeat $pos center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

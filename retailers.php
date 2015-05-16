@@ -35,12 +35,18 @@
 					</div>
 				</div>
 
+				<div id="re-divider-1" class="image-divider top">
+					<div class="inner">
+						<p>Bring me the future.</p>
+					</div>
+				</div>
+
 				<div class="section bg-dk">
 					<div class="inner">
 						<h1>So, what <span>is</span> Bringhub?</h1>
 						<h3>Great question.</h3>
 
-						<p>Bringhub is a revolution that is changing the way people around the world shop.</p>
+						<p>Bringhub allows your store's checkout to go directly into the web's best content. Now, consumers can purchase your products at the moment of inspiration!</p>
 						<p>It's changing the way retailers&mdash;like you&mdash;interact with target consumers. </p>
 						<p>It's changing the way publishers integrate partner products. </p>
 						<p>It's changing the way marketers everywhere monetize content. It's collapsing the consumer buy flow funnel. </p>
@@ -72,9 +78,11 @@
 					</div>
 				</div>
 
-				<div id="re-divider-1" class="image-divider">
+				
+
+				<div id="pub-divider-3" class="image-divider top">
 					<div class="inner">
-						<p>Bring me the future.</p>
+						<p>Bring me that adventure.</p>
 					</div>
 				</div>
 

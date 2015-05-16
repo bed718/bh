@@ -35,8 +35,13 @@
 					</div>
 				</div>
 
+				<div id="pub-divider-1" class="image-divider top">
+					<div class="inner">
+						<p>Bring me the future.</p>
+					</div>
+				</div>
 
-		
+				
 
 				<div class="section bg-dk">
 					<div class="inner">
@@ -50,7 +55,7 @@
 					</div>
 				</div>
 
-				<div class="section ">
+				<div class="section">
 					<div class="inner">
 						<div class="icons header">
 							<span class="bh-icon-shopping-cart"></span>
@@ -59,7 +64,7 @@
 						</div>
 						<h1>What's Bringhub from a functional standpoint?</h1>
 						<h3>Another great question!</h3>
-						<p>Bringhub acts as the single checkout for thousands of retailers right in the web's best content&mdash;yours.</p>
+						<p>Bringhub acts as the single checkout for thousands of brands right in the web's best content&mdash;yours.</p>
 						<p>Whether your audience is at home or on the go, Bringhub works with any site, any device, any time.</p>
 						<p><span class="highlight">Think:</span> A shopper falls in love with a dress featured on her favorite fashion blog. But she also wants to buy the matching shoes and the bracelet (each from a different store). With Bringhub, she can buy all three instantly&mdash;at the moment of discovery&mdash;on the very website where she first found them. Plus, she only has to enter her payment and shipping details once. This means that from here on out, shopping gets even easier.</p>
 						<p>Three items, three different stores, and one checkout that keeps your audience on your content. Bringhub isn't just the ultimate streamlined checkout&mdash;it's an entirely reinvented eCommerce experience. One that makes sense for all parties involved&mdash;publishers, retailers and consumers. </p>
@@ -67,12 +72,13 @@
 					</div>
 				</div>
 
-				<div id="pub-divider-1" class="image-divider">
+				<div id="pub-divider-3" class="image-divider">
 					<div class="inner">
-						<p>Bring me the future.</p>
+						<p>Bring me that adventure.</p>
 					</div>
 				</div>
 
+				
 				<div class="section">
 					<div class="inner">
 						<div class="icons header">
@@ -179,10 +185,10 @@
 						<p>The best brands, top retailers, and premier travel booking and event ticketing providers&mdash;all available in the Bringhub cart.</p>
 						<p>If you want to create content about it, Bringhub makes sure you're also able to sell it.</p>
 						<p>Fashion, housewares, consumer products, vacations, concerts, and more! If your audience learns about it from you, they should be able to buy it from you -- on your site -- with the click of a button.</p>
-						<p>Don't see the store you want? Let us know! Send us an email (morestores@bringhub.com) and we'll do our best to speedily make that store “Bringhub shoppable.”</p>
+						<p>Don't see the store you want? Let us know! Send us an email (<a href="mailto:morestores@bringhub.com">morestores@bringhub.com</a>) and we'll do our best to speedily make that store "Bringhub shoppable."</p>
 
 
-						<p>To get the Bringhub cart on your site, please SEND US YOUR INFO and we'll get the ball rolling.</p>
+						<p>To get the Bringhub cart on your site, please <a href="#cta">SEND US YOUR INFO</a> and we'll get the ball rolling.</p>
 					</div>
 				</div>
 				
