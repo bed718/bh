@@ -8,7 +8,7 @@
 				<div id="slides">
 					<div id="slide-1" class="slide">
 						<div class="inner">
-							<p>Multiple products from multiple stores all from a single checkout.</p>
+							<p>Multiple products from multiple stores all through a single checkout.</p>
 							<div class="more">
 								<a href="#slide-2">
 								Learn<br />More<br />
@@ -20,7 +20,7 @@
 
 					<div id="slide-2" class="slide">
 						<div class="inner">
-							<p>Apparel, consumer goods, tickets or travel &mdash; Bringhub has over 226,000 products!</p>
+							<p>Apparel, consumer goods, tickets, or travel &mdash; over 226,000 products and growing!</p>
 							<div class="more">
 								<a href="#slide-3">
 								Learn<br />Even<br />More<br />
@@ -34,7 +34,7 @@
 						<div class="inner">
 							<p>Now, the web's best stores are directly shoppable in the web's best content.</p>
 							<div class="more">
-								<a href="#slide-4">
+								<a href="#devices">
 								Take a<br />Look<br />
 								<span class="bh-icon-triangle-down"></span>
 								</a>
@@ -42,7 +42,7 @@
 						</div>
 					</div>
 
-					<div class="section bg-dk">
+					<div id="devices" class="section bg-dk">
 						<div class="inner">
 							<h3>Bringhub works on every device.</h3>
 						</div>
@@ -74,7 +74,7 @@
 						<div class="inner">
 							
 							<div class="more">
-								<a href="#slide-5" class="accent">
+								<a href="#sample-site" class="accent">
 								Give it<br />a try<br />
 								<span class="bh-icon-triangle-down"></span>
 								</a>
@@ -83,7 +83,7 @@
 					</div>
 				</div>
 				
-				<div class="section bg-dk">
+				<div id="sample-site" class="section bg-dk">
 					<div class="inner">
 						<h1>Below is a sample site.</h1>
 						<p class="text-center">Click the <span class="highlight">"SHOP THIS"</span> button to see the power of Bringhub!</p>

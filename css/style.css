@@ -582,34 +582,34 @@ a.service-links-google-plus:before {
 -------------------------------------------------------------- */
 /* PLACEHOLDERS & EXTENDS
 -------------------------------------------------------------- */
-/* line 85, ../sass/_base.scss */
+/* line 94, ../sass/_base.scss */
 #nav a, .more a {
   color: #fff;
 }
-/* line 88, ../sass/_base.scss */
+/* line 97, ../sass/_base.scss */
 #nav a:hover, .more a:hover {
   color: #80b1d2;
 }
 
-/* line 93, ../sass/_base.scss */
+/* line 102, ../sass/_base.scss */
 #nav .cta-btn, .more a.accent {
   color: #495259;
 }
-/* line 96, ../sass/_base.scss */
+/* line 105, ../sass/_base.scss */
 #nav .cta-btn:hover, .more a.accent:hover {
   color: #fff;
 }
 
-/* line 101, ../sass/_base.scss */
+/* line 110, ../sass/_base.scss */
 #footer a {
   color: #80b1d2;
 }
-/* line 104, ../sass/_base.scss */
+/* line 113, ../sass/_base.scss */
 #footer a:hover {
   color: #fff;
 }
 
-/* line 109, ../sass/_base.scss */
+/* line 118, ../sass/_base.scss */
 h1, h2, h3, h4, #nav a, .btns .btn, #footer .label, .slide p, .arrows, label, input[type='submit'] {
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
@@ -977,7 +977,7 @@ body.nav-open #nav {
   font-size: 1.2em;
 }
 /* line 350, ../sass/style.scss */
-#content .section h3, #content .section p {
+#content .section h1 + h3, #content .section p + h3, #content .section p {
   margin-top: 40px;
 }
 @media (max-width: 1080px) {
@@ -1169,7 +1169,17 @@ body.nav-open #nav {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
+}
+@media (max-width: 1080px) {
+  /* line 526, ../sass/style.scss */
+  #pub-divider-1 {
+    background: url("../images/BH-station.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }
 @media (max-width: 700px) {
   /* line 526, ../sass/style.scss */
@@ -1189,7 +1199,17 @@ body.nav-open #nav {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
+}
+@media (max-width: 1080px) {
+  /* line 530, ../sass/style.scss */
+  #pub-divider-3 {
+    background: url("../images/BH-adventure-clouds.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }
 @media (max-width: 700px) {
   /* line 530, ../sass/style.scss */
@@ -1209,7 +1229,17 @@ body.nav-open #nav {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
+}
+@media (max-width: 1080px) {
+  /* line 534, ../sass/style.scss */
+  #pub-divider-2 {
+    background: url("../images/BH-corduroy-jacket.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }
 @media (max-width: 700px) {
   /* line 534, ../sass/style.scss */
@@ -1231,7 +1261,17 @@ body.nav-open #nav {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
+}
+@media (max-width: 1080px) {
+  /* line 541, ../sass/style.scss */
+  #re-divider-1 {
+    background: url("../images/BH-station.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }
 @media (max-width: 700px) {
   /* line 541, ../sass/style.scss */
@@ -1251,7 +1291,17 @@ body.nav-open #nav {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
+}
+@media (max-width: 1080px) {
+  /* line 545, ../sass/style.scss */
+  #pub-divider-3 {
+    background: url("../images/BH-adventure-clouds.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }
 @media (max-width: 700px) {
   /* line 545, ../sass/style.scss */
@@ -1271,7 +1321,17 @@ body.nav-open #nav {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
+}
+@media (max-width: 1080px) {
+  /* line 549, ../sass/style.scss */
+  #re-divider-2 {
+    background: url("../images/BH-corduroy-jacket.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }
 @media (max-width: 700px) {
   /* line 549, ../sass/style.scss */
@@ -1291,7 +1351,17 @@ body.nav-open #nav {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
+}
+@media (max-width: 1080px) {
+  /* line 554, ../sass/style.scss */
+  #success-divider-1 {
+    background: url("../images/BH-quilted-jacket.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }
 @media (max-width: 700px) {
   /* line 554, ../sass/style.scss */
@@ -1311,7 +1381,17 @@ body.nav-open #nav {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
+}
+@media (max-width: 1080px) {
+  /* line 558, ../sass/style.scss */
+  #about-divider-1 {
+    background: url("../images/BH-about-header.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }
 @media (max-width: 700px) {
   /* line 558, ../sass/style.scss */
@@ -1661,9 +1741,19 @@ body.about .header-image {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
   display: table;
   height: 100vh;
+}
+@media (max-width: 1080px) {
+  /* line 894, ../sass/style.scss */
+  #slides #slide-1 {
+    background: url("../images/BH-corduroy-jacket.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }
 @media (max-width: 700px) {
   /* line 894, ../sass/style.scss */
@@ -1700,7 +1790,17 @@ body.about .header-image {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
+}
+@media (max-width: 1080px) {
+  /* line 916, ../sass/style.scss */
+  #slide-2 {
+    background: url("../images/BH-camera-bracelet.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }
 @media (max-width: 700px) {
   /* line 916, ../sass/style.scss */
@@ -1730,7 +1830,17 @@ body.about .header-image {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
+}
+@media (max-width: 1080px) {
+  /* line 928, ../sass/style.scss */
+  #slide-3 {
+    background: url("../images/intro/BH-show.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }
 @media (max-width: 700px) {
   /* line 928, ../sass/style.scss */
@@ -1760,7 +1870,17 @@ body.about .header-image {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
+}
+@media (max-width: 1080px) {
+  /* line 940, ../sass/style.scss */
+  #slide-4 {
+    background: url("../images/BH-imac.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }
 @media (max-width: 700px) {
   /* line 940, ../sass/style.scss */
@@ -1784,7 +1904,17 @@ body.about .header-image {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
+}
+@media (max-width: 1080px) {
+  /* line 961, ../sass/style.scss */
+  #slide-5 {
+    background: url("../images/BH-ipad.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }
 @media (max-width: 700px) {
   /* line 961, ../sass/style.scss */
@@ -1808,7 +1938,17 @@ body.about .header-image {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
+}
+@media (max-width: 1080px) {
+  /* line 970, ../sass/style.scss */
+  #slide-6 {
+    background: url("../images/BH-iphone.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }
 @media (max-width: 700px) {
   /* line 970, ../sass/style.scss */

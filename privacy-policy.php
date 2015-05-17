@@ -9,6 +9,7 @@
 				<div class="section">
 					<div class="inner">
 						<h1>Privacy Policy</h1>
+						<p class="text-center">Last updated: 4/23/15</p>
 						<p>Bringhub, Inc. ("Bringhub") values your privacy. In this Privacy Policy ("Policy"), we describe how we collect, use, and disclose information that we obtain through our website www.bringhub.com (the "Site") and the services available through our Site, as well as the bringhub shopping cart (collectively, the "Services").</p>
 <p>By visiting the Site, or using any of our Services, you agree that your personal information will be handled as described in this Policy. Your use of our Site or Services, and any dispute over privacy, is subject to this Policy and our Terms of Use, available at [URL], including its applicable limitations on damages and the resolution of disputes. The Bringhub Terms of Use are incorporated by reference into this Policy.</p>
 
