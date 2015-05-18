@@ -28,7 +28,7 @@ leaving the site they were browsing. </p>
 
 						<p class="quote">
 							&ldquo;Bringhub's software lets digital-media companies add shopping-cart capabilities to its sites in what chief executive officer and cofounder Dominik Pantelides calls e-commerce 3.0.&rdquo;</p>
-						<h4>Read the full article on WWD: <a href="">Here</a></h4>
+						<h4>Read the full article on WWD: <a href="http://wwd.com/media-news/fashion-memopad/rachel-zoe-ventures-invests-in-software-start-up-bringhub-10104015/" target="_blank">Here</a></h4>
 					</div>
 				</div>
 
