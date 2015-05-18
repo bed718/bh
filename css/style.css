@@ -1431,7 +1431,7 @@ body.nav-open #nav {
 
 /* line 587, ../sass/style.scss */
 #about-divider-1 {
-  background: url("../images/BH-office.jpg") no-repeat top center fixed;
+  background: url("../images/BH-office.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1440,7 +1440,7 @@ body.nav-open #nav {
 @media (max-width: 1080px) {
   /* line 587, ../sass/style.scss */
   #about-divider-1 {
-    background: url("../images/BH-office.jpg") no-repeat top center fixed;
+    background: url("../images/BH-office.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1451,7 +1451,7 @@ body.nav-open #nav {
 @media (max-width: 700px) {
   /* line 587, ../sass/style.scss */
   #about-divider-1 {
-    background: url("../images/BH-office.jpg") no-repeat top center;
+    background: url("../images/BH-office.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
