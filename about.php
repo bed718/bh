@@ -21,6 +21,17 @@ leaving the site they were browsing. </p>
 					</div>
 				</div>
 
+
+				<div class="section bg-lt">
+					<div class="inner">
+						<h3>Here's what Woman's world Daily had to say:</h3>
+
+						<p class="quote">
+							&ldquo;Bringhub's software lets digital-media companies add shopping-cart capabilities to its sites in what chief executive officer and cofounder Dominik Pantelides calls e-commerce 3.0.&rdquo;</p>
+						<h4>Read the full article on WWD: <a href="">Here</a></h4>
+					</div>
+				</div>
+
 				<div class="section bg-dk">
 					<div class="inner">
 						<h1>The Team</h1>
@@ -40,16 +51,65 @@ leaving the site they were browsing. </p>
 							</div>
 
 							<div class="member">
+								<div class="image"><img src="/images/team/Albert-Khasky.jpg" alt=""></div>
+								<h2>Albert Khasky</h2>
+								<h3>CTO</h3>
+							</div> 
+
+							<div class="member">
+								<div class="image"><img src="/images/team/John-Adams.jpg" alt="John Adams"></div>
+								<h2>John Adams</h2>
+								<h3>Chief Architect</h3>
+							</div>
+
+							<div class="member">
+								<div class="image"><img src="/images/team/Jose-Castro.jpg" alt="Jose Castro"></div>
+								<h2>Jose Castro</h2>
+								<h3>Customer Service Manager</h3>
+							</div>
+
+							<div class="member">
+								<div class="image"><img src="/images/team/Jayson-Cruz.jpg" alt="Jayson Cruz"></div>
+								<h2>Jayson Cruz</h2>
+								<h3>Frontend Developer</h3>
+							</div>
+
+							<div class="member">
+								<div class="image"><img src="/images/team/Brittany-Gilliam.jpg" alt="Brittany Gilliam"></div>
+								<h2>Brittany Gilliam</h2>
+								<h3>Executive Assistant</h3>
+							</div>
+
+							<div class="member">
+								<div class="image"><img src="/images/team/Tommy-Gomez.jpg" alt="Tommy Gomez"></div>
+								<h2>Tommy Gomez</h2>
+								<h3>Creative Director Consultant</h3>
+							</div>
+
+							<div class="member">
+								<div class="image"><img src="/images/team/Justin-Kiang.jpg" alt="Justin Kiang"></div>
+								<h2>Justin Kiang</h2>
+								<h3>Director of Engineering</h3>
+							</div>
+
+							<div class="member">
 								<div class="image"><img src="/images/team/Marcy-Kelly.jpg" alt="Marcy Kelly"></div>
 								<h2>Marcy Kelly</h2>
 								<h3>Director of Product Management</h3>
 							</div>
 
 							<div class="member">
-								<div class="image"><img src="/images/team/Albert-Khasky.jpg" alt=""></div>
-								<h2>Albert Khasky</h2>
-								<h3>CTO</h3>
+								<div class="image"><img src="/images/team/Jessica-Potts.jpg" alt="Jessica Potts"></div>
+								<h2>Jessica Potts</h2>
+								<h3>Senior Frontend Engineer</h3>
 							</div>
+							
+							<div class="member">
+								<div class="image"><img src="/images/team/Kai-Schulze.jpg" alt="Kai Schulze"></div>
+								<h2>Kai Schulze</h2>
+								<h3>Sr. Bus. Development Consultant</h3>
+							</div>
+							
 
 							<div class="member">
 								<div class="image"><img src="/images/team/Benjamin-Schuster.jpg" alt="Benjamin Schuster"></div>
@@ -63,55 +123,6 @@ leaving the site they were browsing. </p>
 								<h3>Sr. Bus. Development Consultant</h3>
 							</div>
 
-							
-
-							<div class="member">
-								<div class="image"><img src="/images/team/Justin-Kiang.jpg" alt="Justin Kiang"></div>
-								<h2>Justin Kiang</h2>
-								<h3>Director of Engineering</h3>
-							</div>
-
-							<div class="member">
-								<div class="image"><img src="/images/team/Jose-Castro.jpg" alt="Jose Castro"></div>
-								<h2>Jose Castro</h2>
-								<h3>Customer Service Manager</h3>
-							</div>
-
-							<div class="member">
-								<div class="image"><img src="/images/team/Brittany-Gilliam.jpg" alt="Brittany Gilliam"></div>
-								<h2>Brittany Gilliam</h2>
-								<h3>Executive Assistant</h3>
-							</div>
-
-							<div class="member">
-								<div class="image"><img src="/images/team/Jayson-Cruz.jpg" alt="Jayson Cruz"></div>
-								<h2>Jayson Cruz</h2>
-								<h3>Frontend Developer</h3>
-							</div>
-
-							<div class="member">
-								<div class="image"><img src="/images/team/Kai-Schulze.jpg" alt="Kai Schulze"></div>
-								<h2>Kai Schulze</h2>
-								<h3>Sr. Bus. Development Consultant</h3>
-							</div>
-
-							<div class="member">
-								<div class="image"><img src="/images/team/John-Adams.jpg" alt="John Adams"></div>
-								<h2>John Adams</h2>
-								<h3>Chief Architect</h3>
-							</div>
-
-							<div class="member">
-								<div class="image"><img src="/images/team/Jessica-Potts.jpg" alt="Jessica Potts"></div>
-								<h2>Jessica Potts</h2>
-								<h3>Senior Frontend Engineer</h3>
-							</div>
-
-							<div class="member">
-								<div class="image"><img src="/images/team/Tommy-Gomez.jpg" alt="Tommy Gomez"></div>
-								<h2>Tommy Gomez</h2>
-								<h3>Creative Director Consultant</h3>
-							</div>
 
 							<div class="member">
 								<div class="image"><img src="/images/team/Cubfrey-Jones.jpg" alt="Cubfrey Jones"></div>

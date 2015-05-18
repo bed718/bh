@@ -19,7 +19,7 @@
 	</div>
 
 	<div class="form-item">
-		<label for="insightly_organization">Organization</label>
+		<label for="insightly_organization">Organization*</label>
 		<input id="insightly_organization" name="Organization" type="text"/>
 	</div>
 	

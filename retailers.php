@@ -38,7 +38,7 @@
 							<span class="bh-icon-arrow-bold-right"></span>
 							<span class="bh-icon-laptop"></span>
 						</div>
-						<h1>Well I do like the sound of an additional revenue stream with no new cost associated with it...but what's Bringhub from a functional standpoint?</h1>
+						<h1>DO LIKE THE SOUND OF AN EFFORTLESS NEW REVENUE STREAM... BUT HOW DOES BRINGHUB MAKE THAT HAPPEN?</h1>
 						<p>Great question. Bringhub allows your store's checkout to go directly into the web's best content. Now, consumers can purchase your products without even being in your store!</p>
 					</div>
 				</div>

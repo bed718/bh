@@ -74,6 +74,11 @@ h3{
   }
 }
 
+h4{
+  text-align: center;
+  margin: 40px 0;
+}
+
 .fancy{
   font-style: italic;
 }
@@ -90,6 +95,17 @@ ul.styled{
     margin-left: 40px; 
     margin-bottom: 20px; 
     list-style: disc;
+  }
+}
+
+ol{
+  max-width: 600px;
+  margin: 40px auto;
+
+  li{
+    margin-left: 40px; 
+    margin-bottom: 20px; 
+    list-style: upper-roman;
   }
 }
 
@@ -351,6 +367,15 @@ body.nav-open{
       margin-top: 40px; 
     }
 
+    .quote{
+        font-weight: 100;
+        text-align: center;
+        font-size: 2em;
+        max-width: 750px;
+    }
+
+
+
   }
 
   @include bp(m){
@@ -535,6 +560,10 @@ body.nav-open{
   @include bg_full('../images/BH-corduroy-jacket.jpg');
 }
 
+#pub-divider-4{
+  @include bg_full('../images/BringhubDashboardCode.jpg');
+}
+
 
 /* Retailer
 -------------------------------------------------------------- */
@@ -556,7 +585,7 @@ body.nav-open{
 }
 
 #about-divider-1{
-  @include bg_full('../images/BH-about-header.jpg', top);
+  @include bg_full('../images/BH-office.jpg', top);
 }
 
 
@@ -565,7 +594,7 @@ body.nav-open{
 body.about{
 
   .header-image{
-    background: url(../images/BH-about-header.jpg) no-repeat left center fixed; 
+    background: url(../images/BH-office.jpg) no-repeat left center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1208,9 +1237,11 @@ input[type='submit']{
     }
   }
 
-  p{
+  p, h4{
     margin-bottom: 20px;
-    
+    margin-top: 0;
+    text-transform: none;
+    text-align: left;
   }
 
   .main{
@@ -1225,7 +1256,7 @@ input[type='submit']{
       padding: 20px;
     }
   }
-
+   
   .body{
       max-width: 600px;
       border-bottom: #DA322A 5px solid;

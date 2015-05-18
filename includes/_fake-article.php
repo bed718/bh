@@ -10,10 +10,10 @@
 			<div class="inner">
 				<span class="icon-search"></span>
 				<ul>
-					<li><a href="">Style</a></li>
-					<li><a href="">Politics</a></li>
-					<li><a href="">Food & Drink</a></li>
-					<li><a href="">Entertainment</a></li>
+					<li>Style</li>
+					<li>Politics</li>
+					<li>Food & Drink</li>
+					<li>Entertainment</li>
 				</ul>
 			</div>
 		</div>
@@ -24,9 +24,8 @@
 			<div class="meta">
 					<?php echo date('F j, Y @ g:s'); ?>
 				</div>
-				<h1>Take a peek in Kanye's bag.</h1>
-				<h2>In this article we discuss everything you want to know about everything. It's really quite interesting.</h2>
-			
+				<h1>Westward bound: Tools of the trade.</h1>
+				<h2>Accessorize your ego with these accoutrements for the life you want.</h2>
 			<div class="side">
 				<div class="shares"><span>234</span>shares</div>
 				<div class="fake-social">
@@ -45,9 +44,9 @@
 					</div>
 				</div>
 				<div class="body">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, ullam.</p>
-					<p>Perspiciatis nisi perferendis error velit repudiandae optio itaque laborum quae quaerat temporibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam distinctio, perferendis delectus, debitis cupiditate atque?</p>
-					<p> Velit voluptatum libero distinctio ab, tempora incidunt consectetur deleniti, et qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, laboriosam facere dignissimos enim quaerat voluptas ipsa. Minus mollitia dicta quam? Quo ex, natus iure obcaecati asperiores vero aliquid, fuga voluptate ducimus culpa qui quasi quidem? Natus a facilis mollitia quam quisquam.</p>
+					<p>Over the years, everybody's favorite college dropout has taught us a lot about life. Like the fact that fur pillows are actually really hard to sleep on. Or to avoid speaking out of turn, simply rip the conch from the orator's hands ("I'mma let you finish."). Or that if one must jog, it's best to jog in Lanvin. We're beginning to see a common thread, and the overarching takeaway is this: </p>
+					<h4>It's what's on the outside that counts.</h4>
+					<p>If this modus operandi means mega-success, then mirroring the music mogul's exterior just might land you the same. You're in luck! Here at the Hubquire offices, we got a sneak peek into K-Dub's man purse, and what we found was a surprising mix of swank and sensible. Now, you're but a few purchases shy of self-worshipping superstardom. </p>
 				</div>
 			</div>
 

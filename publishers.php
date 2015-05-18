@@ -75,6 +75,12 @@
 					</div>
 				</div>
 
+				<div id="pub-divider-4" class="image-divider">
+					<div class="inner">
+						<p>So easy to install.</p>
+					</div>
+				</div>
+
 				<div class="section">
 					<div class="inner">
 						<div class="icons header">

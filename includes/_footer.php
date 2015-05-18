@@ -28,6 +28,6 @@
 		</div>
 	</div>
 	<div id="copy">
-		&copy; <?php echo date('Y'); ?> BringHub &mdash; Made in L.A. &mdash; <a href="/privacy-policy">Privacy Policy</a>
+		&copy; <?php echo date('Y'); ?> BringHub &mdash; Made in L.A. &mdash; <a href="/privacy-policy">Privacy Policy</a> &mdash; <a href="/tos">TOS</a>
 	</div>
 </div>
