@@ -20,7 +20,7 @@
 leaving the site they were browsing. </p>
 						<h4 class="text-center">Featured in Woman's World Daily</h4>
 						<p class="text-center"><img src="/images/wwd-logo.png" alt="WWD Logo"></p>
-						<p class="text-center">Read the full article <a href="http://wwd.com/media-news/fashion-memopad/rachel-zoe-ventures-invests-in-software-start-up-bringhub-10104015/" target="_blank">here</a></p>
+						<p class="text-center">Read the full article <a href="http://wwd.com/media-news/fashion-memopad/rachel-zoe-ventures-invests-in-software-start-up-bringhub-10104015/" target="_blank">here.</a></p>
 					</div>
 				</div>
 
