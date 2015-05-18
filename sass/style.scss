@@ -585,7 +585,7 @@ body.nav-open{
 }
 
 #about-divider-1{
-  @include bg_full('../images/BH-office.jpg');
+  @include bg_full('../images/BH-office.jpg', center, left);
 }
 
 

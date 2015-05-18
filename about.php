@@ -18,17 +18,9 @@
 						<p>Bringhub empowers readers to shop their favorite stores directly in their favorite content. It isn't just the ultimate streamlined checkout&mdash;it's an entirely reinvented eCommerce experience. </p>
 						<p>Apparel, consumer goods, tickets, or travel, now readers can purchase multiple products, from multiple stores, all through a single checkout&mdash;without ever 
 leaving the site they were browsing. </p>
-					</div>
-				</div>
-
-
-				<div class="section bg-lt">
-					<div class="inner">
-						<h3>Here's what Woman's world Daily had to say:</h3>
-
-						<p class="quote">
-							&ldquo;Bringhub's software lets digital-media companies add shopping-cart capabilities to its sites in what chief executive officer and cofounder Dominik Pantelides calls e-commerce 3.0.&rdquo;</p>
-						<h4>Read the full article on WWD: <a href="http://wwd.com/media-news/fashion-memopad/rachel-zoe-ventures-invests-in-software-start-up-bringhub-10104015/" target="_blank">Here</a></h4>
+						<p class="text-center">Featured in Woman's World Daily</p>
+						<p class="text-center"><img src="/images/wwd-logo.png" alt="WWD Logo"></p>
+						<h4>Read the full article here <a href="http://wwd.com/media-news/fashion-memopad/rachel-zoe-ventures-invests-in-software-start-up-bringhub-10104015/" target="_blank">Here</a></h4>
 					</div>
 				</div>
 

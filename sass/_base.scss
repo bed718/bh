@@ -59,8 +59,8 @@ $default-box-shadow-blur: 3px;
   }
 }
 
-@mixin bg_full($url, $pos: center){
-	background: url($url) no-repeat $pos center fixed; 
+@mixin bg_full($url, $y: center, $x: center){
+	background: url($url) no-repeat $y $x fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -68,7 +68,7 @@ $default-box-shadow-blur: 3px;
   
   
   @include bp(m){
-    background: url($url) no-repeat $pos center fixed; 
+    background: url($url) no-repeat $y $x fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -77,7 +77,7 @@ $default-box-shadow-blur: 3px;
   }
 
   @include bp(s){
-  	background: url($url) no-repeat $pos center; 
+  	background: url($url) no-repeat $y $x; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
