@@ -124,6 +124,13 @@
 <p>If You have any questions about these Terms or otherwise need to contact Us for any reason, You can reach Us at Bringhub, Inc., Customer Service Department, 3221 Hutchison Ave., Ste. H, Los Angeles, CA, 90034, USA. </p>
 
 					</div>
+
+					<div id="cta" class="section bg-accent">
+					<div class="inner">
+						<h1>Start Now!</h1>
+						<?php include 'includes/_contact.php'; ?>	
+					</div>
+				</div>
 				</div>
 
 

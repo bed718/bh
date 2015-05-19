@@ -65,6 +65,13 @@
 <h3>CHANGES TO THIS POLICY</h3>
 <p>This Policy is current as of the Last Updated Date set forth above. We may change this Policy from time to time, so please be sure to check back periodically. We will post any changes to this Policy on our Site or Services, at <a href="http://www.bringhub.com/#!privacypolicy/c1604">http://www.bringhub.com/#!privacypolicy/c1604</a>. If we make any changes to this Policy that materially affect our practices with regard to the personal information we have previously collected from you, we will endeavor to provide you with notice in advance of such change by highlighting the change on our Site, or by emailing your email address of record.</p>
 					</div>
+
+					<div id="cta" class="section bg-accent">
+					<div class="inner">
+						<h1>Start Now!</h1>
+						<?php include 'includes/_contact.php'; ?>	
+					</div>
+				</div>
 				</div>
 
 

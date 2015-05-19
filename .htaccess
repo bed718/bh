@@ -15,10 +15,10 @@ ServerSignature Off
 # since it's out of fashion to use www- redirect URLs to non-www
 Options +FollowSymLinks -MultiViews
 RewriteEngine On
-RewriteBase /
+#RewriteBase /
 
-RewriteCond %{HTTP_HOST} ^www\.website\.com$ [NC]
-RewriteRule ^.*$ http://website.com%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.bringhub\.com$ [NC]
+RewriteRule ^.*$ http://bringhub.com%{REQUEST_URI} [R=301,L]
 
 # remove the .php extension
 RewriteCond %{REQUEST_FILENAME} !-d
