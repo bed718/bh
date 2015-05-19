@@ -77,7 +77,7 @@
 
 				<div id="pub-divider-4" class="image-divider">
 					<div class="inner">
-						<p>So easy to install.</p>
+						<p>EASY TO INTEGRATE.</p>
 					</div>
 				</div>
 
@@ -104,7 +104,7 @@
 						</div>
 						<h1>How do I get paid for a sale?</h1>
 						<p>Every time a shopper checks out on your site, you earn a piece of the sale.</p>
-						<p>Bringhub pays its publisher partners up to 75% of the commission drawn from any sale.</p>
+						<p>Bringhub pays its publisher partners some of the highest commission splits in the industry.</p>
 					</div>
 				</div>
 				

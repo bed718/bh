@@ -33,12 +33,12 @@
 		<link rel="stylesheet" href="/css/style.css">
 
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta property="og:title" content="" />
+		
+		<meta property="og:title" content="BringHub | E-commerce Reinvented" />
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="" />
+		<meta property="og:url" content="http://bringhub.com" />
 		<meta property="og:image" content="" />
 	</head>
 
