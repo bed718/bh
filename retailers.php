@@ -38,7 +38,7 @@
 							<span class="bh-icon-arrow-bold-right"></span>
 							<span class="bh-icon-laptop"></span>
 						</div>
-						<h1>DO LIKE THE SOUND OF AN EFFORTLESS NEW REVENUE STREAM... BUT HOW DOES BRINGHUB MAKE THAT HAPPEN?</h1>
+						<h1>I <span class="fancy">WOULD</span> LIKE AN EFFORTLESS NEW REVENUE STREAM... BUT HOW DOES BRINGHUB MAKE THAT HAPPEN?</h1>
 						<p>Great question. Bringhub allows your store's checkout to go directly into the web's best content. Now, consumers can purchase your products without even being in your store!</p>
 					</div>
 				</div>
