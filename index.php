@@ -20,7 +20,7 @@
 
 					<div id="slide-2" class="slide">
 						<div class="inner">
-							<p>Apparel, consumer goods, tickets, or travel &mdash; 1 million products and growing!</p>
+							<p>Apparel, consumer goods, tickets, or travel &mdash; 1 million+ products and growing!</p>
 							<div class="more">
 								<a href="#slide-3">
 								Learn<br />Even<br />More<br />
