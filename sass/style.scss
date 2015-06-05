@@ -1065,7 +1065,13 @@ select{
 }
 
 .form-item{
+  @include pie-clearfix;
   margin-bottom: 20px;
+
+  .desc{
+    font-size: .8em;
+    font-style: italic;
+  }
 }
 
 .form-group{
@@ -1125,6 +1131,183 @@ input[type='submit']{
 .text-center{
   text-align: center !important;
 }
+
+.compact{
+
+  .form-item{
+    margin-bottom: 20px;
+  }
+
+  label{
+    font-size: 1em;
+    margin-bottom: 5px;
+  }
+
+  input[type='text'],
+  input[type='url'],
+  input[type='email'],
+  textarea{
+    font-size: 1em;
+    padding: 5px 10px;
+
+    &.short{
+      max-width: 150px;
+    }
+  }
+
+  textarea{
+    height: 100px;
+  }
+
+  .form-group{
+    @include pie-clearfix;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-bottom: 40px;
+    padding-bottom: 0;
+    
+    input[type='text'],
+  input[type='url'],
+  input[type='email'],
+  textarea{
+    background-color: #fff;
+  }
+
+
+    .left{
+      padding-right: 10px;
+    }
+
+    .right{
+      padding-left: 10px;
+    }
+
+    @include bp(s){
+      .left,
+      .right{
+        padding: 0;
+      }
+    }
+  }
+}
+
+.form-info{
+  margin-bottom: 40px;
+  padding: 20px;
+  max-width: 80%;
+  background-color: #dfeffa;
+  margin: 0 auto 40px;
+}
+
+.check-group, .readio-group{
+  label{
+    float: left;
+    margin-right: 20px;
+
+    @include bp(s){
+      float: none;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+
+.check-item, .radio-item {
+  display: block;
+  line-height: 24px;
+  padding: 5px 0;
+  font-size: 12px !important;
+  cursor: pointer;
+  @include user-select(none);
+
+}
+
+.check-cb, .radio-cb {
+  display: none;
+}
+
+.check-mark, .radio-mark {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3px;
+  top: 3px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid $color_main;
+
+  &:before {
+    content: '';
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -5px 0 0 -6px;
+    height: 4px;
+    width: 8px;
+    border: solid $color_accent;
+    border-width: 0 0 4px 4px;
+    @include transform(rotate(-45deg));
+  }
+
+  .check-cb:checked ~ &, .radio-cb:checked ~ & {
+    border-color: $color_accent;
+
+    &:before { display: block; }
+  }
+}
+
+.check-desc, .radio-desc {
+  font-weight: bold;
+  color: $color_main;
+
+  .check-cb:checked ~ &,
+  .radio-cb:checked ~ & {
+    color: $color_accent;
+  }
+}
+
+.radio-mark{
+  @include border-radius(12px);
+
+  &:before {
+    @include border-radius(20px);
+    width: 10px;
+    height: 10px;
+    border: none;
+    background-color: $color_accent;
+    margin-left: -5px;
+    border-width: 0;
+    @include transform(rotate(0));
+  }
+}
+
+#branding-choice{
+  .left{
+    width: 35%;
+  }
+
+  .right{
+    width: 65%;
+  }
+
+  img{
+    border: $color_main solid 2px;
+    max-width: 150px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+  }
+
+  input[type="file"]{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+}
+
 
 
 /* FAKE ARTICLE
