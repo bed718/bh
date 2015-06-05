@@ -163,7 +163,7 @@
 					<div class="form-group">
 					<div class="form-item">
 						<label for="">Additional requests/comments</label>
-						<textarea name="" id="" cols="10" rows="10" placeholder="(e.g. RewardStyle, Skimlinks, Commission Junction, etc.)"></textarea>
+						<textarea name="" id="" cols="10" rows="10" ></textarea>
 					</div>
 				</div>
 
