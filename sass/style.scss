@@ -1199,6 +1199,15 @@ input[type='submit']{
   margin: 0 auto 40px;
 }
 
+.file{
+
+  .desc{
+    margin-left: 10px;
+    float: left;
+    max-width: 190px;
+  }
+}
+
 .check-group, .readio-group{
   label{
     float: left;

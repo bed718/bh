@@ -36,6 +36,13 @@ $( document ).ready(function() {
         $('body').toggleClass('nav-open');
     });
 
+    jQuery(function($){
+       $("#date").mask("99/99/9999", {placeholder:"MM/DD/YYYY"});
+       $("#age-range").mask("(999) 999-9999", {placeholder:"Age range:"});
+       $("#tin").mask("99-9999999");
+       $("#ssn").mask("999-99-9999");
+    });
+
 // ==============================================================
 // Masonry
 // ==============================================================

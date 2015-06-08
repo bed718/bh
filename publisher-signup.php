@@ -8,7 +8,7 @@
 				
 				<div class="section">
 						<div class="inner">
-					<h1>Publisher Signup</h1>
+					<h1>New Publisher Brief</h1>
 				<form action="" class="compact">
 					<div class="form-group">
 						<div class="form-item"><label for="">Company</label><input type="text"></div>
@@ -53,11 +53,11 @@
 					</div>
 					<div class="form-group">
 						<label for="">What is your key demographic?</label>
-						<div class="form-item left"><input type="text" placeholder="Age range"></div>
-						<div class="form-item right"><input type="text" placeholder="Income range: ___ to ___ annual"></div>
+						<div class="form-item left"><input type="text" placeholder="Age range:"></div>
+						<div id="age-range" class="form-item right"><input type="text" placeholder="Income range: ___ to ___ annual"></div>
 						<div class="form-item left"><input type="text" placeholder="Gender: M___% / F___%"></div>
-						<div class="form-item right"><input type="text" placeholder="Location"></div>
-						<div class="form-item"><input type="text" placeholder="Interests"></div>
+						<div class="form-item right"><input type="text" placeholder="Location:"></div>
+						<div class="form-item"><input type="text" placeholder="Interests:"></div>
 					</div>
 
 					<div class="form-group">
@@ -107,7 +107,11 @@
 						      </label>
 						      <div class="desc">Your company logo used thoughout</div>
 						      <img src="../images/Confirmation-Hubquire.jpg" alt="">
-						      <input type="file">
+						      <div class="file">
+						      	<input type="file" >
+						      <div class="desc">Please upload an .svg or .ai file of your logo.</div>
+						      </div>
+						      
 					      </div>
 						</div>
 					</div>
@@ -118,12 +122,38 @@
 					
 					<div class="form-group">
 						<div class="form-item"><label for="">Which CMS do you use?</label><input type="text" placeholder="(e.g. Wordpress, Drupal, custom, etc.)"></div>
+						
 						<label for="">Which best describes how you would like Bringhub to be intergrated into your CMS?</label>
 						<div class="form-item">
-							<label class="check-item">
-					        <input type="checkbox" name="" value="" class="check-cb" >
-					        <span class="check-mark"></span>
-					        <span class="check-desc">No CMS Integration</span>
+							<label class="radio-item">
+					        <input type="radio" name="cms" value="" class="radio-cb" >
+					        <span class="radio-mark"></span>
+					        <span class="radio-desc">Fully Automated Integration</span>
+					      </label>
+					      <div class="desc">We'd like to generate the Bringhub collection & product ID's within our CMS and have them automatically added to the code of relevant media within a post.
+								<br />
+								(estimated integration time: 3 weeks)
+					      </div>
+					   </div>
+
+					   <div class="form-item">
+							<label class="radio-item">
+					        <input type="radio" name="cms" value="" class="radio-cb" >
+					        <span class="radio-mark"></span>
+					        <span class="radio-desc">Simple Integration</span>
+					      </label>
+					      <div class="desc">We'd like to generate the Bringhub collection & product ID's within our CMS. From there, we'll manually add these to the media code within a post.
+								<br />
+								(estimated integration time: 1 week)
+					      </div>
+					   </div>
+						
+
+						<div class="form-item">
+							<label class="radio-item">
+					        <input type="radio" name="cms" value="" class="radio-cb" >
+					        <span class="radio-mark"></span>
+					        <span class="radio-desc">No CMS Integration</span>
 					      </label>
 					      <div class="desc">We'll visit the Bringhub publisher dashboard to find products and generate collection & product ID's. Then, we'll manually add these to a post's code within our CMS.
 								
@@ -131,33 +161,10 @@
 								(estimated integration time: 1 day)
 					      </div>
 					   </div>
-
-					   <div class="form-item">
-							<label class="check-item">
-					        <input type="checkbox" name="" value="" class="check-cb" >
-					        <span class="check-mark"></span>
-					        <span class="check-desc">Simple Integration</span>
-					      </label>
-					      <div class="desc">We'd like to generate the Bringhub collection & product ID's within our CMS. From there, we'll manually add these to the media code within a post.
-								<br />
-								(estimated integration time: 1 week)
-					      </div>
-					   </div>
-
-					   <div class="form-item">
-							<label class="check-item">
-					        <input type="checkbox" name="" value="" class="check-cb" >
-					        <span class="check-mark"></span>
-					        <span class="check-desc">Fully Automated Integration</span>
-					      </label>
-					      <div class="desc">We'd like to generate the Bringhub collection & product ID's within our CMS and have them automatically added to the code of relevant media within a post.
-								<br />
-								(estimated integration time: 3 weeks)
-					      </div>
-					   </div>
+					   
 					</div>
 					<div class="form-group">
-					<div class="form-item"><label for="">When would you like to start using the cart?</label><input type="text" placeholder="MM/DD/YYYY" class="short"></div>
+					<div class="form-item"><label for="">When would you like to start using the cart?</label><input id="date" type="text" placeholder="MM/DD/YYYY" class="short"></div>
 					</div>
 
 					<div class="form-group">
@@ -178,7 +185,7 @@
 				</div>
 
 			</div>
-
+			
 			<?php include 'includes/_footer.php'; ?>	
 		</div>
 
