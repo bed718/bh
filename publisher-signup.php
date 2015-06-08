@@ -8,8 +8,9 @@
 				
 				<div class="section">
 						<div class="inner">
-					<h1>New Publisher Brief</h1>
+					
 				<form action="" class="compact">
+					<h1>New Publisher Brief</h1>
 					<div class="form-group">
 						<div class="form-item"><label for="">Company</label><input type="text"></div>
 						<div class="form-item"><label for="">Website</label><input type="url" placeholder="http://"></div>
@@ -20,7 +21,7 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="">Your Bringhub point person</label>
+						<label for="">Your point person</label>
 						<div class="form-item left"><input type="text" placeholder="Name (First Last)"></div>
 						<div class="form-item right"><input type="email" placeholder="Email"></div>
 						
@@ -116,10 +117,6 @@
 						</div>
 					</div>
 
-					<div class="form-info">
-						Bringhub allows your editors to find items in the Bringhub inventory using retailer product URL's and your affiliate links. With these, Bringhub generates product-specific ID's so the cart knows which item(s) to display.
-					</div>
-					
 					<div class="form-group">
 						<div class="form-item"><label for="">Which CMS do you use?</label><input type="text" placeholder="(e.g. Wordpress, Drupal, custom, etc.)"></div>
 						
@@ -131,8 +128,7 @@
 					        <span class="radio-desc">Fully Automated Integration</span>
 					      </label>
 					      <div class="desc">We'd like to generate the Bringhub collection & product ID's within our CMS and have them automatically added to the code of relevant media within a post.
-								<br />
-								(estimated integration time: 3 weeks)
+								
 					      </div>
 					   </div>
 
@@ -143,8 +139,7 @@
 					        <span class="radio-desc">Simple Integration</span>
 					      </label>
 					      <div class="desc">We'd like to generate the Bringhub collection & product ID's within our CMS. From there, we'll manually add these to the media code within a post.
-								<br />
-								(estimated integration time: 1 week)
+								
 					      </div>
 					   </div>
 						
@@ -157,8 +152,7 @@
 					      </label>
 					      <div class="desc">We'll visit the Bringhub publisher dashboard to find products and generate collection & product ID's. Then, we'll manually add these to a post's code within our CMS.
 								
-								<br />
-								(estimated integration time: 1 day)
+								
 					      </div>
 					   </div>
 					   
