@@ -53,8 +53,8 @@
 					</div>
 					<div class="form-group">
 						<label for="">What is your key demographic?</label>
-						<div class="form-item left"><input type="text" placeholder="Age range:"></div>
-						<div id="age-range" class="form-item right"><input type="text" placeholder="Income range: ___ to ___ annual"></div>
+						<div id="age-range" class="form-item left"><input type="text" placeholder="Age range:"></div>
+						<div  class="form-item right"><input type="text" placeholder="Income range: ___ to ___ annual"></div>
 						<div class="form-item left"><input type="text" placeholder="Gender: M___% / F___%"></div>
 						<div class="form-item right"><input type="text" placeholder="Location:"></div>
 						<div class="form-item"><input type="text" placeholder="Interests:"></div>
